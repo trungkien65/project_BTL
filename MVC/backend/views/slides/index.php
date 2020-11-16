@@ -19,12 +19,12 @@
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>name</th>
-        <th>Avatar</th>
-        <th>position</th>
-        <th>Status</th>
-        <th>Created_at</th>
-        <th>Updated_at</th>
+        <th>Tên slide</th>
+        <th>Ảnh</th>
+        <th>Thứ tự hiển thị</th>
+        <th>Trạng thái</th>
+        <th>Ngày tạo</th>
+        <th>Ngày cập nhật</th>
         <th></th>
     </tr>
     <?php if (!empty( $slides)): ?>

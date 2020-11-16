@@ -42,8 +42,8 @@
                     <img src="assets/uploads/<?php echo $category['avatar'] ?>" width="60"/>
                 <?php endif; ?>
               </td>
-              <td>
-                <?php echo $category['description']; ?>
+              <td class="category_des" width="450px">
+                <p><?php echo $category['description']; ?></p>
               </td>
               <td>
                 <?php

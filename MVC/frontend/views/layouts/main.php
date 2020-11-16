@@ -120,7 +120,7 @@
 <!-- //about -->
 <!--new Arrivals -->
 <!--Customers Review -->
-<section class="clients py-lg-4 py-md-3 py-sm-3 py-3" id="clients">
+<!--<section class="clients py-lg-4 py-md-3 py-sm-3 py-3" id="clients">
     <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
         <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Customers Review</h3>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -280,10 +280,10 @@
             </a>
         </div>
     </div>
-</section>
+</section>-->
 <!--//Customers Review -->
 <!-- Product-view -->
-<section class="product py-lg-4 py-md-3 py-sm-3 py-3">
+<!--<section class="product py-lg-4 py-md-3 py-sm-3 py-3">
     <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
         <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Latest Toys</h3>
         <div class=" img-toy-w3l-top">
@@ -341,10 +341,10 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!--//Product-view-->
 <!--//Product-view-->
-<section class="premium py-lg-4 py-md-3 py-sm-3 py-3">
+<!--<section class="premium py-lg-4 py-md-3 py-sm-3 py-3">
     <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
         <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Premium Toys</h3>
         <div class="row">
@@ -382,9 +382,9 @@
             <div class="col-lg-6 agileits-toys-left"></div>
         </div>
     </div>
-</section>
+</section>-->
 <!--Product-about-->
-<section class="about py-lg-4 py-md-3 py-sm-3 py-3">
+<!--<section class="about py-lg-4 py-md-3 py-sm-3 py-3">
     <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
         <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">About Toys</h3>
         <div class="about-products-w3layouts">
@@ -413,7 +413,7 @@
             </p>
         </div>
     </div>
-</section>
+</section>-->
 <!--//Product-about-->
 <!--footer-->
     <?php require_once 'footer.php';?>

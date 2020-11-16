@@ -21,110 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/slides/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/slides/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/slides/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/slides/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/about-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/about-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/about-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/d-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/list-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/marker02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/midbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/images/sprit-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/js/jquery.mixitup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/js/jquery.swipebox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/js/jquery.wmuSlider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/slides/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/slides/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mockup_html/frontend/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/mockup_html/frontend/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mockup_html/frontend/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/about-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/about-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/about-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/d-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/list-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/marker02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/midbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/images/sprit-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mockup_html/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/js/jquery.mixitup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/js/jquery.swipebox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/js/jquery.wmuSlider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/sign.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/mockup_html/frontend/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockup_html/frontend/w3layouts-license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mockup_html/frontend/w3layouts-license.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +66,7 @@
       <workItem from="1605361798216" duration="4339000" />
       <workItem from="1605446140020" duration="205000" />
       <workItem from="1605499750958" duration="6562000" />
-      <workItem from="1605530177085" duration="5841000" />
+      <workItem from="1605530177085" duration="7494000" />
     </task>
     <servers />
   </component>
