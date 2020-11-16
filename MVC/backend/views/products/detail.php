@@ -7,15 +7,11 @@ require_once 'helpers/Helper.php';
         <td><?php echo $product['id']?></td>
     </tr>
     <tr>
-        <th>Category name</th>
-        <td><?php echo $product['category_name']?></td>
-    </tr>
-    <tr>
-        <th>Title</th>
+        <th>Tên sản phẩm</th>
         <td><?php echo $product['title']?></td>
     </tr>
     <tr>
-        <th>Avatar</th>
+        <th>Ảnh</th>
         <td>
             <?php if (!empty($product['avatar'])): ?>
                 <img height="80" src="assets/uploads/<?php echo $product['avatar'] ?>"/>
@@ -23,7 +19,7 @@ require_once 'helpers/Helper.php';
         </td>
     </tr>
     <tr>
-        <th>Price</th>
+        <th>Giá</th>
         <td><?php echo number_format($product['price']) ?></td>
     </tr>
     <tr>
@@ -39,15 +35,15 @@ require_once 'helpers/Helper.php';
         <td><?php echo $product['seo_keywords'] ?></td>
     </tr>
     <tr>
-        <th>Status</th>
+        <th>Trạng thái</th>
         <td><?php echo Helper::getStatusText($product['status']) ?></td>
     </tr>
     <tr>
-        <th>Created at</th>
+        <th>Ngày tạo</th>
         <td><?php echo date('d-m-Y H:i:s', strtotime($product['created_at'])) ?></td>
     </tr>
     <tr>
-        <th>Updated at</th>
+        <th>Ngày cập nhật</th>
         <td><?php echo !empty($product['updated_at']) ? date('d-m-Y H:i:s', strtotime($product['updated_at'])) : '--' ?></td>
     </tr>
 </table>

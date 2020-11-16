@@ -12,8 +12,6 @@ require_once 'helpers/Helper.php';
         <label for="title">Chọn danh mục</label>
         <select name="category_id" class="form-control">
             <?php foreach ($categories as $category):
-                //giữ trạng thái selected của category sau khi chọn dựa vào
-//                tham số category_id trên trình duyệt
                 $selected = '';
                 if (isset($_GET['category_id']) && $category['id'] == $_GET['category_id']) {
                     $selected = 'selected';
@@ -39,14 +37,14 @@ require_once 'helpers/Helper.php';
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>Category name</th>
-        <th>Title</th>
-        <th>Avatar</th>
-        <th>Price</th>
-        <th>Amount</th>
-        <th>Status</th>
-        <th>Created_at</th>
-        <th>Updated_at</th>
+        <th>ID danh mục</th>
+        <th>Tên sản phẩm</th>
+        <th>Ảnh</th>
+        <th>Giá bán</th>
+        <th>Số lượng</th>
+        <th>Trạng thái</th>
+        <th>Ngày tạo</th>
+        <th>Ngày cập nhật</th>
         <th></th>
     </tr>
     <?php if (!empty($products)): ?>
@@ -81,7 +79,7 @@ require_once 'helpers/Helper.php';
 
     <?php else: ?>
         <tr>
-            <td colspan="9">No data found</td>
+            <td colspan="9">Không có bản ghi</td>
         </tr>
     <?php endif; ?>
 </table>

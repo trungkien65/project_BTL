@@ -8,23 +8,23 @@ require_once 'helpers/Helper.php';
         <td><?php echo $user['id'] ?></td>
     </tr>
     <tr>
-        <th>username</th>
+        <th>Tên tài khoản</th>
         <td><?php echo $user['username'] ?></td>
     </tr>
     <tr>
-        <th>first_name</th>
+        <th>Họ</th>
         <td><?php echo $user['first_name'] ?></td>
     </tr>
     <tr>
-        <th>last_name</th>
+        <th>Tên</th>
         <td><?php echo $user['last_name'] ?></td>
     </tr>
     <tr>
-        <th>phone</th>
+        <th>Số điện thoại</th>
         <td><?php echo $user['phone'] ?></td>
     </tr>
     <tr>
-        <th>address</th>
+        <th>Địa chỉ</th>
         <td><?php echo $user['address'] ?></td>
     </tr>
     <tr>
@@ -32,7 +32,7 @@ require_once 'helpers/Helper.php';
         <td><?php echo $user['email'] ?></td>
     </tr>
     <tr>
-        <th>avatar</th>
+        <th>Ảnh dại diện</th>
         <td>
             <?php if (!empty($user['avatar'])): ?>
                 <img height="80" src="assets/uploads/<?php echo $user['avatar'] ?>"/>
@@ -40,24 +40,24 @@ require_once 'helpers/Helper.php';
         </td>
     </tr>
     <tr>
-        <th>jobs</th>
+        <th>Nghề nghiệp</th>
         <td><?php echo $user['jobs'] ?></td>
     </tr>
     <tr>
-        <th>last_login</th>
+        <th>Đăng nhập cuối</th>
         <td><?php echo !empty($user['last_login']) ? date('d-m-Y H:i:s', strtotime($user['last_login'])) : '' ?></td>
     </tr>
     <tr>
-        <th>status</th>
+        <th>trạng thái</th>
         <td><?php echo Helper::getStatusText($user['status']); ?></td>
     </tr>
     <tr>
-        <th>created_at</th>
+        <th>Ngày tạo</th>
         <td><?php echo date('d-m-Y H:i:s', strtotime($user['created_at'])) ?></td>
     </tr>
     <tr>
-        <th>updated_at</th>
+        <th>Ngày cập nhật</th>
         <td><?php echo date('d-m-Y H:i:s', strtotime($user['updated_at'])) ?></td>
     </tr>
 </table>
-<a href="index.php?controller=user&action=index" class="btn btn-default">Back</a>
+<a href="index.php?controller=user&action=index" class="btn btn-default">Thoát</a>

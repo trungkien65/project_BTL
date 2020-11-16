@@ -1,5 +1,5 @@
 <?php if (empty($category)): ?>
-    <h2>Không tồn tại category</h2>
+    <h2>Không tồn tại danh mục</h2>
 <?php else: ?>
     <h2>Chỉnh sửa danh mục #<?php echo $category['id'] ?></h2>
     <form method="post" action="" enctype="multipart/form-data">

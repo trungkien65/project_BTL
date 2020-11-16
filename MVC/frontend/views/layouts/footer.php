@@ -1,198 +1,65 @@
-
-<!-- mid-bann -->
-<div class="mid-banner">
-    <div class="container">
-        <h3>Our Team</h3>
-        <div class="wmuSlider example1 section" id="section-1">
-            <article style="position: absolute; width: 100%; opacity: 0;">
-                <div class="midbanner-top">
-                    <div class="midbanner-left">
-                        <img src="assets/images/13.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="midbanner-right">
-                        <p>Mauris vulputate odio nulla, et rhoncus felis pulvinar ut. Praesent ornare
-                            sem ac vulputate porttitor. Quisque elementum, magna eu sollicitudin </p>
-                        <span>Steve Jhon</span>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-
-            </article>
-            <article style="position: absolute; width: 100%; opacity: 0;">
-                <div class="midbanner-top">
-                    <div class="midbanner-left">
-                        <img src="assets/images/13.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="midbanner-right">
-                        <p>Mauris vulputate odio nulla, et rhoncus felis pulvinar ut. Praesent ornare
-                            sem ac vulputate porttitor. Quisque elementum, magna eu sollicitudin </p>
-                        <span>Steve Jhon</span>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-
-            </article>
-            <article style="position: absolute; width: 100%; opacity: 0;">
-                <div class="midbanner-top">
-                    <div class="midbanner-left">
-                        <img src="assets/images/man.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="midbanner-right">
-                        <p>Mauris vulputate odio nulla, et rhoncus felis pulvinar ut. Praesent ornare
-                            sem ac vulputate porttitor. Quisque elementum, magna eu sollicitudin </p>
-                        <span>Steve Jhon</span>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-
-            </article>
-            <ul class="wmuSliderPagination">
-                <li><a href="#" class="">0</a></li>
-                <li><a href="#" class="">1</a></li>
-                <li><a href="#" class="">2</a></li>
-            </ul>
-        </div>
-        <!-- script -->
-
-        <script>
-            $('.example1').wmuSlider();
-        </script>
-        <!-- script -->
-    </div>
-</div>
-<!-- mid-bann -->
-
-<!-- footer -->
-<div class="footer">
-    <div class="container">
-        <div class="col-md-4 get">
-            <h3>Địa chỉ liên hệ</h3>
-            <p>Hà Đông, Hà Nội</p>
-            <p>SĐT 1:   +1 234  567 8970</p>
-            <p>SĐT 2:   +1 234  567 8970</p>
-            <p>Email : <a href="mailto:info@company.com">abc@gmail.com</a></p>
-        </div>
-        <div class="col-md-4 follow">
-            <h3>Kết nối với chúng tôi</h3>
-            <div class="social">
-                <ul>
-                    <li><a href="#"><i class="facebok"> </i></a></li>
-                    <li><a href="#"><i class="twiter"> </i></a></li>
-                    <li><a href="#"><i class="drible"> </i></a></li>
-                    <li><a href="#"><i class="in"> </i></a></li>
-                    <div class="clearfix"></div>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-4 join">
-            <h3>Tham gia cộng đồng</h3>
-            <p>Cập nhật những tin tức và sự kiện mới nhất.</p>
-            <a href="register.html" class="btn  btn-1c">ĐĂNG KÝ</a>
-        </div>
-        <div class="clearfix"> </div>
-        <div class="footer-bootom ">
-            <p>Copyrights © 2015 Aquaclub All rights reserved | Design by <a href="http://w3layouts.com/">Kienhd</a></p>
-        </div>
-    </div>
-</div>
-<!-- footer -->
-
-
-<!--footer-->
-<!--<div class="footer">
-    <div class="container">
+<section class="subscribe">
+    <div class="container-fluid">
         <div class="row">
-            <div class="image-footer-wrap col-md-3">
-                LOGO
+            <div class="col-lg-6 col-md-6 map-info-right px-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3150859.767904157!2d-96.62081048651531!3d39.536794757966845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1408111832978"> </iframe>
             </div>
-            <div class="address-footer-wrap col-md-6">
-                <strong>Thông tin liên hệ</strong>
-                 <br/>
-                Email: abc@gmail.com
-            </div>
-            <div class="social-footer-wrap col-md-3">
-                <strong>Kết nối với chúng tôi</strong>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="color fab fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="color fab fa-youtube" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="color fab fa-google-plus-g"></i>
-                        </a>
-                    </li>
-                </ul>
+            <div class="col-lg-6 col-md-6 address-w3l-right text-center">
+                <div class="address-gried ">
+                    <span class="far fa-map"></span>
+                    <p>25478 Road St.121<br>USA New Hill
+                    <p>
+                </div>
+                <div class="address-gried mt-3">
+                    <span class="fas fa-phone-volume"></span>
+                    <p> +(000)123 4565<br>+(010)123 4565</p>
+                </div>
+                <div class=" address-gried mt-3">
+                    <span class="far fa-envelope"></span>
+                    <p><a href="mailto:info@example.com">info@example1.com</a>
+                        <br><a href="mailto:info@example.com">info@example2.com</a>
+                    </p>
+                </div>
             </div>
         </div>
-        <p class="footer-copyright">
-            Copyright 2020 by nvmanh. All rights reserved
+    </div>
+</section>
+<!--//subscribe-address-->
+<section class="sub-below-address py-lg-4 py-md-3 py-sm-3 py-3">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Get In Touch Us</h3>
+        <div class="icons mt-4 text-center">
+            <ul>
+                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                <li><a href="#"><span class="fas fa-envelope"></span></a></li>
+                <li><a href="#"><span class="fas fa-rss"></span></a></li>
+                <li><a href="#"><span class="fab fa-vk"></span></a></li>
+            </ul>
+            <p class="my-3">velit sagittis vehicula. Duis posuere
+                ex in mollis iaculis. Suspendisse tincidunt
+                velit sagittis vehicula. Duis posuere
+                velit sagittis vehicula. Duis posuere
+            </p>
+        </div>
+        <div class="email-sub-agile">
+            <form action="#" method="post">
+                <div class="form-group sub-info-mail">
+                    <input type="email" class="form-control email-sub-agile" placeholder="Email">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn subscrib-btnn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--//subscribe-->
+<!-- footer -->
+<footer class="py-lg-4 py-md-3 py-sm-3 py-3 text-center">
+    <div class="copy-agile-right">
+        <p>
+            © 2018 Toys-Shop. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a>
         </p>
     </div>
-</div>
-
-
-<div class="overlay"></div>
-
-<ul class="icon-service-wrap">
-    <li data-toggle="tooltip" data-placement="left" title="Gọi ngay cho chúng tôi">
-        <a href="tel:0999999999">
-            <img src="assets/images/icon-phone.png" class="icon-service-img"/>
-        </a>
-    </li>
-    <li data-toggle="tooltip" data-placement="left" title="Chat với chúng tôi qua Zalo">
-        <a href="//zalo.me/0999999999" target="_blank">
-            <img src="assets/images/icon-zalo.png" class="icon-service-img"/>
-        </a>
-    </li>
-    <li data-toggle="tooltip" data-placement="left" title="Gửi mail cho chúng tôi">
-        <a href="mailto:abc@gmail.com">
-            <img src="assets/images/icon-mail.png" class="icon-service-img"/>
-        </a>
-    </li>
-    <li data-toggle="tooltip" data-placement="left" title="Liên hệ với chúng tôi">
-        <a href="/lien-he.html" target="_blank">
-            <img src="assets/images/icon-map.png" class="icon-service-img"/>
-        </a>
-    </li>
-</ul>-->
-
-<!--<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>-->
-
-<!-- Tooltip plugin (zebra) js file -->
-<!--<script src="assets/js/zebra_tooltips.min.js"></script>
--->
-
-<!-- Owl Carousel plugin js file -->
-<!--<script src="assets/js/owl.carousel.min.js"></script>
--->
-<!-- Ideabox theme js file. you have to add all pages. -->
-<!--<script src="assets/js/jquery.show-more.js"></script>
-<script src="assets/js/script.js"></script>-->
-<!-- Load Facebook SDK for JavaScript -->
-<!--<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function () {
-    FB.init({
-      xfbml: true,
-      version: 'v7.0'
-    });
-  };
-
-  (function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>-->
+</footer>
+<!--footer-->

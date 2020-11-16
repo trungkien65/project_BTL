@@ -1,12 +1,12 @@
 <div class="container" style="max-width: 500px">
     <form method="post" action="">
-        <h2>Form login</h2>
+        <h2>Đăng nhập</h2>
         <div class="form-group">
-            <label for="username">Username</label>
+            <label for="username">Tài khoản</label>
             <input type="text" name="username" value="" id="username" class="form-control"/>
         </div>
         <div class="form-group">
-            <label for="password">Password</label>
+            <label for="password">Mật khẩu</label>
             <input type="password" name="password" value="" id="password" class="form-control"/>
         </div>
         <div class="form-group">

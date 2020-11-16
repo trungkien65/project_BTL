@@ -6,11 +6,11 @@
         <td><?php echo $slide['id']; ?></td>
     </tr>
     <tr>
-        <th>Name</th>
+        <th>Tên</th>
         <td><?php echo $slide['name']; ?></td>
     </tr>
     <tr>
-        <th>Avatar</th>
+        <th>Ảnh</th>
         <td>
             <?php if (!empty($slide['avatar'])): ?>
                 <img src="assets/uploads/<?php echo $slide['avatar'] ?>" width="60"/>
@@ -22,7 +22,7 @@
         <td><?php echo $slide['position']; ?></td>
     </tr>
     <tr>
-        <th>Status</th>
+        <th>Trạng thái</th>
         <td>
             <?php
             $status_text = 'Active';
@@ -34,17 +34,17 @@
         </td>
     </tr>
     <tr>
-        <th>Created_at</th>
+        <th>Ngày tạo</th>
         <td>
             <?php echo date('d-m-Y H:i:s', strtotime($slide['created_at'])); ?>
         </td>
     </tr>
     <tr>
-        <th>Updated_at</th>
+        <th>Ngày cập nhật</th>
         <td>
             <?php echo date('d-m-Y H:i:s', strtotime($slide['updated_at'])); ?>
         </td>
     </tr>
 </table>
-<a class="btn btn-primary" href="index.php?controller=slide">Back</a>
+<a class="btn btn-primary" href="index.php?controller=slide">Thoát</a>
 

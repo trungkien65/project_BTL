@@ -1,4 +1,4 @@
-<h1>Chi tiết category</h1>
+<h1>Chi tiết anh mục</h1>
 
 <table class="table table-bordered">
     <tr>
@@ -6,11 +6,11 @@
         <td><?php echo $category['id']; ?></td>
     </tr>
     <tr>
-        <th>Name</th>
+        <th>Tên danh mục</th>
         <td><?php echo $category['name']; ?></td>
     </tr>
     <tr>
-        <th>Avatar</th>
+        <th>Ảnh</th>
         <td>
             <?php if (!empty($category['avatar'])): ?>
                 <img src="assets/uploads/<?php echo $category['avatar'] ?>" width="60"/>
@@ -18,11 +18,11 @@
         </td>
     </tr>
     <tr>
-        <th>Description</th>
+        <th>Mô tả</th>
         <td><?php echo $category['description']; ?></td>
     </tr>
     <tr>
-        <th>Status</th>
+        <th>Trạng thái</th>
         <td>
             <?php
             $status_text = 'Active';
@@ -34,17 +34,17 @@
         </td>
     </tr>
     <tr>
-        <th>Created_at</th>
+        <th>Ngày tạo</th>
         <td>
             <?php echo date('d-m-Y H:i:s', strtotime($category['created_at'])); ?>
         </td>
     </tr>
     <tr>
-        <th>Updated_at</th>
+        <th>Ngày cập nhật</th>
         <td>
             <?php echo date('d-m-Y H:i:s', strtotime($category['updated_at'])); ?>
         </td>
     </tr>
 </table>
-<a class="btn btn-primary" href="index.php?controller=category">Back</a>
+<a class="btn btn-primary" href="index.php?controller=category">Thoát</a>
 

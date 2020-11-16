@@ -1,7 +1,7 @@
 
 <form method="GET" action="">
     <div class="form-group">
-        <label for="username">Username</label>
+        <label for="username">Tên tài khoản</label>
         <input type="text" name="username" id="username"
                value="<?php echo isset($_GET['username']) ? $_GET['username'] : '' ?>" class="form-control"/>
         <input type="hidden" name="controller" value="user"/>
@@ -20,15 +20,15 @@
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>Username</th>
-        <th>first_name</th>
-        <th>last_name</th>
-        <th>phone</th>
-        <th>address</th>
+        <th>Tên tài khoản</th>
+        <th>Họ</th>
+        <th>Tên</th>
+        <th>Số điện thoại</th>
+        <th>Địa chỉ</th>
         <th>email</th>
-        <th>avatar</th>
-        <th>jobs</th>
-        <th>created_at</th>
+        <th>Ảnh đại diện</th>
+        <th>Nghề nghiệp</th>
+        <th>Ngày tạo</th>
         <th></th>
     </tr>
     <?php if (!empty($users)): ?>

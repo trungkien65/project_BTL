@@ -13,19 +13,19 @@
     </div>
 </form>
 
-<h1>Danh sách category</h1>
+<h1>Danh sách danh mục</h1>
 <a href="index.php?controller=category&action=create" class="btn btn-primary">
     <i class="fa fa-plus"></i> Thêm mới
 </a>
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>Name</th>
-        <th>Avatar</th>
-        <th>Description</th>
-        <th>Status</th>
-        <th>Created_at</th>
-        <th>Updated_at</th>
+        <th>Tên danh mục</th>
+        <th>Ảnh</th>
+        <th>Mô tả</th>
+        <th>Trạng thái</th>
+        <th>Ngày tạo</th>
+        <th>Ngày cập nhật</th>
         <th></th>
     </tr>
   <?php if (!empty($categories)): ?>

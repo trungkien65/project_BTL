@@ -1,13 +1,13 @@
-<h2>Thêm mới banner</h2>
+<h2>Thêm mới Slide</h2>
 <form method="post" action="" enctype="multipart/form-data">
     <div class="form-group">
-        <label>Tên banner</label>
+        <label>Tên Slide</label>
         <input type="text" name="name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : ''; ?>"
                class="form-control"/>
     </div>
 
     <div class="form-group">
-        <label>Ảnh banner</label>
+        <label>Ảnh Slide</label>
         <input type="file" name="avatar" class="form-control" id="category-avatar"/>
         <img src="#" id="img-preview" style="display: none" width="100" height="100"/>
     </div>

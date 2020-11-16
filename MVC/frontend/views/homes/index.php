@@ -41,7 +41,7 @@ require_once 'helpers/Helper.php';
 <!--    END PRODUCT-->
 
 <!--NEWS-->
-<div class="news-wrap">
+<!--<div class="news-wrap">
     <div class="news container">
         <h1 class="post-list-title">
             <a href="/news.html" class="link-category-item">Tin mới nhất</a>
@@ -97,5 +97,5 @@ require_once 'helpers/Helper.php';
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <!--END NEWS-->
