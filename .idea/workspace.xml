@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="" />
+    <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/slides/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/slides/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/slides/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/slides/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/slides/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/slides/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +53,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jAKTwxhKt3AgUco6kl9FPADFta" />
   <component name="ProjectViewState">
@@ -35,22 +82,39 @@
       <workItem from="1605015552897" duration="818000" />
       <workItem from="1605110596640" duration="14409000" />
       <workItem from="1605281299094" duration="1406000" />
-      <workItem from="1605361798216" duration="2502000" />
+      <workItem from="1605361798216" duration="4339000" />
+      <workItem from="1605446140020" duration="205000" />
+      <workItem from="1605499750958" duration="6562000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="12" key="#PHP" timestamp="1605364927607">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="390" y="12" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1605364927607" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1605016372989">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605016372989" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605144692052">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605500079222">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605144692052" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605500079222" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1605282358425">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
