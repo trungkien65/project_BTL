@@ -74,12 +74,12 @@
     <?php echo $this->content; ?>
 </div>
 
-<!--<section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+<section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
     <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
         <h3 class="title text-center mb-lg-5 mb-md-4  mb-sm-4 mb-3">Best Products</h3>
         <div class="row banner-below-w3l">
             <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
-                <img src="images/a1.jpg" class="img-thumbnail" alt="">
+                <img src="../images/banner.jpg" class="img-thumbnail" alt="">
                 <div class="banner-right-icon">
                     <h4 class="pt-3">Baby Toys</h4>
                 </div>

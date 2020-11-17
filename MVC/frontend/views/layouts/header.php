@@ -29,7 +29,7 @@ require_once 'helpers/Helper.php';
                 <div class="col-lg-5 col-md-6 search-right">
                     <form class="form-inline my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                        <button class="btn" type="submit">Tìm <kiếm></kiếm></button>
+                        <button class="btn" type="submit">Tìm kiếm</button>
                     </form>
                 </div>
                 <div class="col-lg-4 col-md-3 right-side-cart">
@@ -95,8 +95,8 @@ require_once 'helpers/Helper.php';
         <div class="callbacks_container">
             <ul class="rslides" id="slider4">
                 <li>
-                    <div class="slider-img one-img">
-                        <img src="../backend/assets/uploads/<?php echo $slide['avatar']?>" alt="">
+                    <div class="slider-img">
+                        <img src="../backend/assets/uploads/--><?php echo $slide['avatar']?><!--" alt="">
                     </div>
                 </li>
             </ul>
