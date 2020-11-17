@@ -37,7 +37,7 @@ require_once 'helpers/Helper.php';
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>ID danh mục</th>
+        <th>Tên danh mục</th>
         <th>Tên sản phẩm</th>
         <th>Ảnh</th>
         <th>Giá bán</th>

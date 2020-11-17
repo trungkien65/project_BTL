@@ -36,7 +36,7 @@ CREATE TABLE `categories` (
   `status` tinyint(3) DEFAULT 0 COMMENT 'Trạng thái danh mục: 0 - Inactive, 1 - Active',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo danh mục',
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `categories`
@@ -70,7 +70,7 @@ CREATE TABLE `news` (
   `seo_keywords` varchar(255) DEFAULT NULL COMMENT 'Các từ khóa seo',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo',
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -90,7 +90,7 @@ CREATE TABLE `orders` (
   `payment_status` tinyint(2) DEFAULT NULL COMMENT 'Trạng thái đơn hàng: 0 - Chưa thành toán, 1 - Đã thành toán',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo đơn',
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -102,7 +102,7 @@ CREATE TABLE `order_details` (
   `order_id` int(11) DEFAULT NULL COMMENT 'Id của order tương ứng, là khóa ngoại liên kết với bảng orders',
   `product_id` int(11) DEFAULT NULL COMMENT 'Id của product tương ứng, là khóa ngoại liên kết với bảng products',
   `quantity` int(11) DEFAULT NULL COMMENT 'Số sản phẩm đã đặt'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -125,7 +125,7 @@ CREATE TABLE `products` (
   `seo_keywords` varchar(255) DEFAULT NULL COMMENT 'Các từ khóa seo',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo',
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -141,7 +141,7 @@ CREATE TABLE `slides` (
   `status` tinyint(3) DEFAULT 0 COMMENT 'Trạng thái danh mục: 0 - Inactive, 1 - Active',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo',
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `slides`
@@ -182,7 +182,7 @@ CREATE TABLE `users` (
   `status` tinyint(3) DEFAULT 0 COMMENT 'phân quyền : 0 - admin ; 1 - users',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() COMMENT 'Ngày tạo',
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `users`

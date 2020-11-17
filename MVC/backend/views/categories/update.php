@@ -9,7 +9,14 @@
                    value="<?php echo isset($_POST['name']) ? $_POST['name'] : $category['name']; ?>"
                    class="form-control"/>
         </div>
-
+        <div class="form-group">
+            <label>Loại danh mục</label>
+            <select name="type" class="form-control">
+                <option value="0" >Cá</option>
+                <option value="1" >Bể cá</option>
+                <option value="2" >Phụ kiện</option>
+            </select>
+        </div>
         <div class="form-group">
             <label>Ảnh đại diện</label>
             <input type="file" name="avatar" class="form-control"/>

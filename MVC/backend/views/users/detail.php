@@ -48,7 +48,7 @@ require_once 'helpers/Helper.php';
         <td><?php echo !empty($user['last_login']) ? date('d-m-Y H:i:s', strtotime($user['last_login'])) : '' ?></td>
     </tr>
     <tr>
-        <th>trạng thái</th>
+        <th>Phân loại</th>
         <td><?php echo Helper::getStatusText($user['status']); ?></td>
     </tr>
     <tr>

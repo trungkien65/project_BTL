@@ -9,8 +9,8 @@ class Helper
 {
     const STATUS_ACTIVE = 1;
     const STATUS_DISABLED = 0;
-    const STATUS_ACTIVE_TEXT = 'Active';
-    const STATUS_DISABLED_TEXT = 'Disabled';
+    const STATUS_ACTIVE_TEXT = 'User';
+    const STATUS_DISABLED_TEXT = 'Admin';
 
     /**
      * Get status text

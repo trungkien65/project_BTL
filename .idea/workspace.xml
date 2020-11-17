@@ -21,14 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/helpers/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/shop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_cnpm.sql" beforeDir="false" afterPath="$PROJECT_DIR$/project_cnpm.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +77,8 @@
       <workItem from="1605446140020" duration="205000" />
       <workItem from="1605499750958" duration="6562000" />
       <workItem from="1605530177085" duration="8109000" />
-      <workItem from="1605572189526" duration="16188000" />
+      <workItem from="1605572189526" duration="16555000" />
+      <workItem from="1605615611307" duration="11539000" />
     </task>
     <servers />
   </component>
@@ -107,6 +114,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605596256041" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1605619990873">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1605619990873" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1605596234596">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
