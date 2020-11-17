@@ -15,6 +15,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 #Khai báo các rule để Reweite
 #Cú pháp như sau:
 #RewriteRule <url-rewrite> <url-mvc>
+RewriteRule trang-chu.html index.php?controller=home&action=index
 RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
 #Giả sử rewrite cho trang chi tiết sản phẩm
 #san-pham/samsung-note-10/20.html

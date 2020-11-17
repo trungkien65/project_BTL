@@ -36,9 +36,6 @@ require_once 'helpers/Helper.php';
                     <div class="cart-icons">
                         <ul>
                             <li>
-                                <span class="far fa-heart"></span>
-                            </li>
-                            <li>
                                 <button type="button" data-toggle="modal" data-target="#exampleModal"> <span class="far fa-user"></span></button>
                             </li>
                             <li class="toyscart toyscart2 cart cart box_1">
@@ -62,7 +59,7 @@ require_once 'helpers/Helper.php';
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav ">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="trang-chu.html">Trang chủ<span class="sr-only">(current)</span></a>
                     </li>
                     <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -95,8 +92,35 @@ require_once 'helpers/Helper.php';
         <div class="callbacks_container">
             <ul class="rslides" id="slider4">
                 <li>
-                    <div class="slider-img">
-                        <img src="../backend/assets/uploads/--><?php echo $slide['avatar']?><!--" alt="">
+                    <div class="slider-img one-img">
+                        <div class="container">
+                            <div class="slider-info ">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider-img two-img">
+                        <div class="container">
+                            <div class="slider-info ">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider-img three-img">
+                        <div class="container">
+                            <div class="slider-info ">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider-img four-img">
+                        <div class="container">
+                            <div class="slider-info ">
+                            </div>
+                        </div>
                     </div>
                 </li>
             </ul>

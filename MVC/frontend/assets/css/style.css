@@ -216,10 +216,11 @@ h5#exampleModalLabel{
 /*--//model--*/
 /*-- banner --*/
 .one-img {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(../images/1605576832-banner.jpg)no-repeat center;
 }
-.two-img{  background: url(../images/midbanner.jpg)no-repeat center;}
-.three-img{  background: url(../images/img7.jpg)no-repeat center;}
+.two-img{  background: url(../images/fish_background.jpg)no-repeat center;}
+.three-img{  background: url(../images/fish-background-1.jpg)no-repeat center;}
+.four-img{  background: url(../images/download2.jpg)no-repeat center;}
 .slider-img{  background-size: cover;
 min-height: 800px;}  
 .rslides {
