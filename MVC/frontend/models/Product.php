@@ -25,7 +25,24 @@ class Product extends Model {
     return $products;
   }
 
-  /**
+    public function getAll() {
+        $sql_select_all = "SELECT * FROM products WHERE `status` = 1";
+        $obj_select_all = $this->connection->prepare($sql_select_all);
+        $obj_select_all->execute();
+        $products = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
+        return $products;
+    }
+
+    /*public function getAqru() {
+        $sql_select_all = "SELECT * FROM products WHERE `status` = 1";
+        $obj_select_all = $this->connection->prepare($sql_select_all);
+        $obj_select_all->execute();
+        $products = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
+        return $products;
+    }*/
+
+
+    /**
    * Lấy thông tin sản phẩm theo id
    * @param $id
    * @return mixed

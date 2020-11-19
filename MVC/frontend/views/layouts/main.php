@@ -21,6 +21,9 @@
     <!--booststrap-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <!--//booststrap end-->
+    <link href="assets/css/checkout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/creditly.css" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' media="all">
     <!-- font-awesome icons -->
     <link href="assets/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
     <!-- //font-awesome icons -->
@@ -28,6 +31,7 @@
     <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="all" />
     <!--flexs slider-->
     <link href="assets/css/JiSlider.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui1.css" rel="stylesheet">
     <!--Shoping cart-->
     <link rel="stylesheet" href="assets/css/shop.css" type="text/css" />
     <!--//Shoping cart-->
@@ -35,12 +39,11 @@
     <link href="assets/css/style.css" rel='stylesheet' type='text/css' media="all">
     <link href="assets/css/style1.css" rel='stylesheet' type='text/css' media="all">
     <!--//stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&amp;subset=latin-ext"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Sunflower:500,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 </head>
 <body>
-<div class="color-bg">
+<div>
     <div class="set-width">
         <!--header-->
         <?php require_once 'header.php';?>
@@ -133,6 +136,24 @@
             });
         </script>
         <!-- //cart-js -->
+        <script src="assets/js/jquery-ui.js"></script>
+        <script>
+            //<![CDATA[
+            $(window).load(function () {
+                $("#slider-range").slider({
+                    range: true,
+                    min: 0,
+                    max: 9000,
+                    values: [50, 6000],
+                    slide: function (event, ui) {
+                        $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                    }
+                });
+                $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+
+            }); //]]>
+        </script>
+        <script src="assets/js/imagezoom.js"></script>
         <!--responsiveslides banner-->
         <script src="assets/js/responsiveslides.min.js"></script>
         <script>
@@ -156,6 +177,29 @@
             });
         </script>
         <!--// responsiveslides banner-->
+        <script src="assets/js/easy-responsive-tabs.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#horizontalTab').easyResponsiveTabs({
+                    type: 'default', //Types: default, vertical, accordion
+                    width: 'auto', //auto or any width like 600px
+                    fit: true, // 100% fit in a container
+                    closed: 'accordion', // Start closed if in accordion view
+                    activate: function (event) { // Callback function if tab is switched
+                        var $tab = $(this);
+                        var $info = $('#tabInfo');
+                        var $name = $('span', $info);
+                        $name.text($tab.text());
+                        $info.show();
+                    }
+                });
+                $('#verticalTab').easyResponsiveTabs({
+                    type: 'vertical',
+                    width: 'auto',
+                    fit: true
+                });
+            });
+        </script>
         <!--slider flexisel -->
         <script src="assets/js/jquery.flexisel.js"></script>
         <script>
@@ -186,6 +230,16 @@
             });
         </script>
         <!-- //slider flexisel -->
+        <script src="assets/js/jquery.flexslider.js"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(window).load(function () {
+                $('.flexslider1').flexslider({
+                    animation: "slide",
+                    controlNav: "thumbnails"
+                });
+            });
+        </script>
         <!-- start-smoth-scrolling -->
         <script src="assets/js/move-top.js"></script>
         <script src="assets/js/easing.js"></script>

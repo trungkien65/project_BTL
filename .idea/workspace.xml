@@ -22,16 +22,13 @@
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/news/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/show_all.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/show_all.php" afterDir="false" />
     </list>
@@ -79,6 +76,9 @@
       <workItem from="1605572189526" duration="16555000" />
       <workItem from="1605615611307" duration="12055000" />
       <workItem from="1605659411050" duration="10546000" />
+      <workItem from="1605748020721" duration="9666000" />
+      <workItem from="1605757915056" duration="1911000" />
+      <workItem from="1605792165497" duration="1523000" />
     </task>
     <servers />
   </component>
@@ -106,10 +106,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605016372989" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605577533216">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605793974703">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605577533216" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605793974703" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1605596256041">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

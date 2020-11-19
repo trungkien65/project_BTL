@@ -9,4 +9,13 @@ class Category extends Model {
     $categories = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
     return $categories;
   }
+//    public function getById($id)
+//    {
+//        $obj_select = $this->connection
+//            ->prepare("SELECT products.*, categories.name AS category_name FROM products
+//          INNER JOIN categories ON products.category_id = categories.id WHERE products.id = $id");
+//
+//        $obj_select->execute();
+//        return $obj_select->fetch(PDO::FETCH_ASSOC);
+//    }
 }

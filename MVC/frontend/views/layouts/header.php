@@ -65,7 +65,7 @@ require_once 'helpers/Helper.php';
                         <a href="ca-canh.html" class="nav-link">Cá cảnh</a>
                     </li>
                     <li class="nav-item">
-                        <a href="be-ca-canh.html" class="nav-link">Bể cá cảnh</a>
+                        <a href="be-ca.html" class="nav-link">Bể cá cảnh</a>
                     </li>
                     <li class="nav-item">
                         <a href="phu-kien.html" class="nav-link">Phụ kiện</a>

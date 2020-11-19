@@ -16,9 +16,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 #Cú pháp như sau:
 #RewriteRule <url-rewrite> <url-mvc>
 RewriteRule trang-chu.html index.php?controller=home&action=index
-RewriteRule ca-canh.html index.php?controller=product&action=detail
-RewriteRule be-ca-canh.html index.php?controller=home&action=index
-RewriteRule phu-kien.html index.php?controller=home&action=index
+RewriteRule ca-canh.html index.php?controller=product&action=getfish
+RewriteRule be-ca.html index.php?controller=product&action=getaqru
+RewriteRule phu-kien.html index.php?controller=product&action=getaccessories
 RewriteRule tin-tuc.html index.php?controller=new&action=index
 RewriteRule lien-he.html index.php?controller=home&action=index
 RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index

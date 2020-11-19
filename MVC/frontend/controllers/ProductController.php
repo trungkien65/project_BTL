@@ -76,18 +76,51 @@ class ProductController extends Controller {
         require_once 'views/layouts/main.php';
     }
 
-    public function filter() {
-        //Xử lý submit form
-        echo "<pre>";
-        print_r($_POST);
-        echo "</pre>";
+    public function getfish() {
+        $product_model = new Product();
+        $products = $product_model->getAll();
 
-        //LẤy ra danh sách toàn bộ sản phẩm đang có trên hệ thống
+        $category_model = new Category();
+        $categories = $category_model->getAll();
+
+        $this->content = $this->render('views/products/detailFish.php', [
+            'products' => $products,
+            'categories' => $categories
+        ]);
+        require_once 'views/layouts/main.php';
+    }
+    public function getaqru() {
+        $product_model = new Product();
+        $products = $product_model->getAll();
+
+        $category_model = new Category();
+        $categories = $category_model->getAll();
+
+        $this->content = $this->render('views/products/detailAquarium.php', [
+            'products' => $products,
+            'categories' => $categories
+        ]);
+        require_once 'views/layouts/main.php';
+    }
+
+    public function getaccessories() {
+        $product_model = new Product();
+        $products = $product_model->getAll();
+
+        $category_model = new Category();
+        $categories = $category_model->getAll();
+
+        $this->content = $this->render('views/products/detailAccessories.php', [
+            'products' => $products,
+            'categories' => $categories
+        ]);
+        require_once 'views/layouts/main.php';
+    }
+
+    public function filter() {
         $product_model = new Product();
         $products = $product_model->getAllFilter();
 
-        //Lấy ra toàn bộ danh mục đang có để hiển thị cho phần
-        //lọc danh mục
         $category_model = new Category();
         $categories = $category_model->getAll();
         $this->content =
