@@ -39,5 +39,15 @@ class Product extends Model {
     $obj_select->execute();
     return $obj_select->fetch(PDO::FETCH_ASSOC);
   }
+    public function getAllFilter() {
+        $sql_select_all ="SELECT products.*, categories.name AS category_name FROM products
+        INNER JOIN categories ON products.category_id = categories.id WHERE products.status = 1";
+        $obj_select_all = $this->connection
+            ->prepare($sql_select_all);
+        $obj_select_all->execute();
+        $products = $obj_select_all
+            ->fetchAll(PDO::FETCH_ASSOC);
+        return $products;
+    }
 }
 

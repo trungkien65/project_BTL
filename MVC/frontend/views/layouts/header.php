@@ -61,27 +61,20 @@ require_once 'helpers/Helper.php';
                     <li class="nav-item active">
                         <a class="nav-link" href="trang-chu.html">Trang chủ<span class="sr-only">(current)</span></a>
                     </li>
-                    <!--<li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sản phẩm
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="nav-link" href="product.html">Cá</a>
-                            <a class="nav-link " href="product.html">Bể cá</a>
-                            <a class="nav-link " href="product.html">Phụ kiện</a>
-                        </div>
-                    </li>-->
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Cá cảnh</a>
+                        <a href="ca-canh.html" class="nav-link">Cá cảnh</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Bể cá cảnh</a>
+                        <a href="be-ca-canh.html" class="nav-link">Bể cá cảnh</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Phụ kiện</a>
+                        <a href="phu-kien.html" class="nav-link">Phụ kiện</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Liên hệ</a>
+                        <a href="tin-tuc.html" class="nav-link">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="lien-he.html" class="nav-link">Liên hệ</a>
                     </li>
                 </ul>
             </div>

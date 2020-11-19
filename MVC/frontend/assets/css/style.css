@@ -768,16 +768,13 @@ color:#000;}
     -ms-background-size: cover;
     height:534px;}
 /*--//Premium-- */
-.img-toy-w3l-top{background: url(../images/cc1.jpg)no-repeat center;
+.img-toy-w3l-top{
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     height:534px;}
-.toys-img-one{background: url(../images/cc2.jpg)no-repeat center;}
-.toys-img-one-two{background: url(../images/tt1.jpg)no-repeat center;}
-.toys-img-one-three{background: url(../images/tt2.jpg)no-repeat center;}
 .toys-img-one-two,.toys-img-one-three{
 	    background-size: cover;
     -webkit-background-size: cover;

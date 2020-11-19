@@ -5,12 +5,7 @@ require_once 'models/Category.php';
 require_once 'models/Pagination.php';
 class ProductController extends Controller {
     public function showAll() {
-//    echo "<pre>" . __LINE__ . ", " . __DIR__ . "<br />";
-//    print_r($_REQUEST);
-//    echo "</pre>";
-//    die;
         $params = [];
-        //nếu user có hành động filter
         if (isset($_POST['filter'])) {
             if (isset($_POST['category'])) {
                 $category = implode(',', $_POST['category']);
@@ -46,9 +41,6 @@ class ProductController extends Controller {
             'limit' => 1,
             'full_mode' => FALSE,
         ];
-        //xử lý phân trang
-//    $pagination_model = new Pagination($params_pagination);
-//    $pagination = $pagination_model->getPagination();
         //get products
         $product_model = new Product();
         $products = $product_model->getProductInHomePage($params);
@@ -59,8 +51,8 @@ class ProductController extends Controller {
 
         $this->content = $this->render('views/products/show_all.php', [
             'products' => $products,
-            'categories' => $categories
-//      'pagination' => $pagination,
+            'categories' => $categories,
+           // 'pagination' => $pagination
         ]);
 
         require_once 'views/layouts/main.php';
@@ -98,10 +90,6 @@ class ProductController extends Controller {
         //lọc danh mục
         $category_model = new Category();
         $categories = $category_model->getAll();
-//    echo "<pre>";
-//    print_r($categories);
-//    echo "</pre>";
-        //Gọi view và layout để hiển thị
         $this->content =
             $this->render('views/products/filter.php', [
                 'products' => $products,

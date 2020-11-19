@@ -2,6 +2,7 @@
 require_once 'controllers/Controller.php';
 require_once 'models/Product.php';
 require_once 'models/Category.php';
+require_once 'models/BNew.php';
 
 class HomeController extends Controller {
   public function index() {
@@ -11,7 +12,7 @@ class HomeController extends Controller {
     $category_model = new Category();
     $categories = $category_model->getAll();
 
-    $bnew_model = new Category();
+    $bnew_model = new BNew();
     $bnews = $bnew_model->getAll();
 
     $this->content = $this->render('views/homes/index.php', [

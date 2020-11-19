@@ -3,7 +3,7 @@
 ?>
 <div class="container">
     <div class="row">
-        <div class="detail-content-wrap con-md-8 col-sm-8 col-xs-12">
+        <div class="con-md-8 col-sm-8 col-xs-12">
             <div class="product-info-wrap">
                 <div class="product-image-info">
                     <img src="../backend/assets/uploads/<?php echo $product['avatar'] ?>" width="260"
@@ -44,54 +44,6 @@
         <div class="news-relative-wrap col-md-4 col-sm-4 col-xs-12">
             <h4 class="link-category-item">Sản phẩm khác</h4>
             <ul class="news-relative">
-                <li>
-                    <a href='product_detail.html' class="news-relative-link">
-                                <span class="news-relative-img">
-                                <img src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
-                                     alt="no-image" title="SamSung Note 10"
-                                     class="detail-relative-img"/>
-                                </span>
-                        <span class="detail-relative-content">
-                                    SamSung Note 10
-                                </span>
-                    </a>
-                </li>
-                <li>
-                    <a href='product_detail.html' class="news-relative-link">
-                                <span class="news-relative-img">
-                                <img src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
-                                     alt="no-image" title="SamSung Note 10"
-                                     class="detail-relative-img"/>
-                                </span>
-                        <span class="detail-relative-content">
-                                    SamSung Note 10
-                            </span>
-                    </a>
-                </li>
-                <li>
-                    <a href='product_detail.html' class="news-relative-link">
-                                <span class="news-relative-img">
-                                <img src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
-                                     alt="no-image" title="SamSung Note 10"
-                                     class="detail-relative-img"/>
-                                </span>
-                        <span class="detail-relative-content">
-                                    SamSung Note 10
-                            </span>
-                    </a>
-                </li>
-                <li>
-                    <a href='product_detail.html' class="news-relative-link">
-                                <span class="news-relative-img">
-                                <img src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
-                                     alt="no-image" title="SamSung Note 10"
-                                     class="detail-relative-img"/>
-                                </span>
-                        <span class="detail-relative-content">
-                                    SamSung Note 10
-                            </span>
-                    </a>
-                </li>
                 <li>
                     <a href='product_detail.html' class="news-relative-link">
                                 <span class="news-relative-img">

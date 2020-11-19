@@ -66,7 +66,7 @@ require_once 'helpers/Helper.php';
                                                          alt="<?php echo $product['title'] ?>">
                                                     <div class="men-cart-pro">
                                                         <div class="inner-men-cart-pro">
-                                                            <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                            <a href="<?php echo $product_link;?>" class="link-product-add-cart">Quick View</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,7 +75,7 @@ require_once 'helpers/Helper.php';
                                                         <div class="grid_meta">
                                                             <div class="product_price">
                                                                 <h4>
-                                                                    <a href="single.html"><?php echo $product['title'] ?></a>
+                                                                    <a href="<?php echo $product_link;?>"><?php echo $product['title'] ?></a>
                                                                 </h4>
                                                                 <div class="grid-price mt-2">
                                                                     <span class="money"><?php echo number_format($product['price']) ?></span>
@@ -122,7 +122,7 @@ require_once 'helpers/Helper.php';
                                                          alt="<?php echo $product['title'] ?>">
                                                     <div class="men-cart-pro">
                                                         <div class="inner-men-cart-pro">
-                                                            <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                                            <a href="<?php echo $product_link;?>" class="link-product-add-cart">Quick View</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -131,7 +131,7 @@ require_once 'helpers/Helper.php';
                                                         <div class="grid_meta">
                                                             <div class="product_price">
                                                                 <h4>
-                                                                    <a href="single.html"><?php echo $product['title'] ?></a>
+                                                                    <a href="<?php echo $product_link;?>"><?php echo $product['title'] ?></a>
                                                                 </h4>
                                                                 <div class="grid-price mt-2">
                                                                     <span class="money"><?php echo number_format($product['price']) ?></span>
@@ -164,59 +164,27 @@ require_once 'helpers/Helper.php';
 </section>
 <!--    END PRODUCT-->
 <!--NEW-->
-<section class="product py-lg-4 py-md-3 py-sm-3 py-3">
-    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+<section class="new-content">
+    <div class="container-fluid new-con">
         <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Tin tức</h3>
-        <div class=" img-toy-w3l-top">
-        </div>
-        <div class="mt-lg-4 mt-3 product-info-img">
-            <p>velit sagittis vehicula. Duis posuere
-                ex in mollis iaculis. Suspendisse tincidunt
-                velit sagittis vehicula. Duis posuere
-                velit sagittis vehicula. Duis posuere
-            </p>
-            <div class="clients_more-buttn">
-                <a href="shop.html">Shop Now</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 img-toy-w3l-left">
-                <div class="toys-img-one"></div>
-                <div class="mt-lg-4 mt-3 product-info-img">
-                    <p>velit sagittis vehicula. Duis posuere
-                        ex in mollis iaculis. Suspendisse tincidunt
-                        velit sagittis vehicula. Duis posuere
-                        velit sagittis vehicula. Duis posuere
-                    </p>
-                    <div class="clients_more-buttn">
-                        <a href="shop.html">Shop Now</a>
+        <?php if(!empty($bnews)):?>
+            <div class="row">
+                <?php foreach ($bnews AS $bnew):?>
+                    <div class="col-md-6">
+                        <div class="knew-div">
+                            <img src="../backend/assets/uploads/<?php echo $bnew['avatar'] ?>"
+                                 class="img-thumbnail img-fluid knew-img"
+                                 alt="<?php echo $bnew['title'] ?>">
+                        </div>
+                        <div class="mt-lg-4 mt-3 knew-div-title">
+                            <p><?php echo $bnew['title'] ?></p>
+                            <div class="clients_more-buttn">
+                                <a href="shop.html">Shop Now</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                <?php endforeach;?>
             </div>
-            <div class="col-lg-6 img-toy-agile-right">
-                <div class="toys-img-one-two"></div>
-                <div class="mt-lg-4 mt-3 product-info-img">
-                    <p>velit sagittis vehicula. Duis posuere
-                        ex in mollis iaculis. Suspendisse tincidunt
-                        velit sagittis vehicula. Duis posuere
-                        velit sagittis vehicula. Duis posuere
-                    </p>
-                    <div class="clients_more-buttn">
-                        <a href="shop.html">Shop Now</a>
-                    </div>
-                </div>
-                <div class="toys-img-one-three"></div>
-                <div class="mt-lg-4 mt-3 product-info-img">
-                    <p>velit sagittis vehicula. Duis posuere
-                        ex in mollis iaculis. Suspendisse tincidunt
-                        velit sagittis vehicula. Duis posuere
-                        velit sagittis vehicula. Duis posuere
-                    </p>
-                    <div class="clients_more-buttn">
-                        <a href="shop.html">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php endif;?>
     </div>
 <!--NEW-->

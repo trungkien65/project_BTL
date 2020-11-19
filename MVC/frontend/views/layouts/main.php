@@ -74,14 +74,8 @@
                 <?php endif; ?>
             </div>
             <!--    hiển thị nội dung động -->
-
         </div>
         <?php echo $this->content; ?>
-        <!--<section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
-            <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
-
-            </div>
-        </section>-->
         <!--footer-->
         <?php require_once 'footer.php';?>
         <!-- //footer -->
