@@ -51,3 +51,6 @@ img.img-thumbnail.pro-img {
 section.new-content, .row.content {
     margin-top: 10px;
 }
+.cart-con th {
+    border: 1px solid #dee2e6;
+}

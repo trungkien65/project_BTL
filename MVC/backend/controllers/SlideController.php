@@ -10,7 +10,7 @@ class SlideController extends Controller {
         $slide_model = new Slide();
 
         $params = [
-            'limit' => 5, //giới hạn 5 bản ghi 1 trang
+            'limit' => 5,
             'query_string' => 'page',
             'controller' => 'slide',
             'action' => 'index',
@@ -22,7 +22,7 @@ class SlideController extends Controller {
         if (isset($_GET['page'])) {
             $page = $_GET['page'];
         }
-        //xử lý form tìm kiếm
+
         if (isset($_GET['name'])) {
             $params['query_additional'] = '&name=' . $_GET['name'];
         }
@@ -30,13 +30,11 @@ class SlideController extends Controller {
         $count_total = $slide_model->CountTotal();
         $params['total'] = $count_total;
 
-        //gán biến name cho mảng params với key là name
         $params['page'] = $page;
         $pagination = new Pagination($params);
-        //lấy ra html phân trang
+
         $pages = $pagination->getPagination();
 
-        //lấy danh sách category sử dụng phân trang
         $slides = $slide_model->getAllPagination($params);
 
         $this->content = $this->render('views/slides/index.php', [
@@ -55,7 +53,7 @@ class SlideController extends Controller {
             $status = $_POST['status'];
             $avatar_files = $_FILES['avatar'];
 
-            //check validate
+
             if (empty($name)) {
                 $this->error = 'Cần nhập tên';
             }
@@ -64,7 +62,6 @@ class SlideController extends Controller {
                 $extension = pathinfo($avatar_files['name'], PATHINFO_EXTENSION);
                 $extension = strtolower($extension);
                 $file_size_mb = $avatar_files['size'] / 1024 / 1024;
-                //làm tròn theo đơn vị thập phân
                 $file_size_mb = round($file_size_mb, 2);
 
                 if (!in_array($extension, $extension_arr)) {

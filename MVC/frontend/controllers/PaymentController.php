@@ -1,5 +1,4 @@
 <?php
-//nhsung các file
 require_once 'configs/PHPMailer/src/PHPMailer.php';
 require_once 'configs/PHPMailer/src/SMTP.php';
 require_once 'configs/PHPMailer/src/Exception.php';
@@ -12,56 +11,33 @@ require_once 'models/OrderDetail.php';
 
 class PaymentController extends Controller {
   public function index() {
-      //xử lý submit form, khi user click thanh toán
-      echo "<pre>";
-      print_r($_POST);
-      echo "</pre>";
       if(isset($_POST['submit'])){
-          //gán biến trung gian cho dễ thao tác
           $fullname = $_POST['fullname'];
           $address = $_POST['address'];
           $mobile = $_POST['mobile'];
           $email = $_POST['email'];
           $note = $_POST['note'];
           $method = $_POST['method'];
-          //validate form : 3 trường fullname, address mobile và email
-          //ko dk để trống + email phải đúng dịnh dạng
           if(empty($fullname) || empty($address) || empty($mobile) || empty($email)){
-              $this->error = 'fullname hoặc address hoạc email hoặc email ko được để trống';
+              $this->error = 'fullname hoặc address hoặc SĐT hoặc email không được để trống';
           }elseif (!filter_var($email,FILTER_VALIDATE_EMAIL)){
-              $this->error = 'email ko đúng dịnh dạng';
+              $this->error = 'email không đúng dịnh dạng';
           }
-          //xử lý luuw thông tin đơn hàng chỉ khi ko có lỗi xảy ra
           if(empty($this->error)){
-              //lưu thông tin đơn hàng vào bảng orders trước
               $order_model = new Order();
-              //gán các giá trị của đơn hàng cho thuộc tính tương ứng của model
               $order_model->fullname = $fullname;
               $order_model->mobile = $mobile;
               $order_model->address = $address;
               $order_model->email = $email;
               $order_model->note = $note;
-              //xử lý cho trường payment_status : trjang thái thanh toán
-              //đơn hàng, mặc dịnh khi mới đặt hàng thì sẽ = 0
-              //bên backend sẽ cần có chức năng update lại trang thái thanh toán
               $order_model->payment_status = 0;
-              //xử lsy cho trường pricw_total : tổng giá trị đơn hàng
-              //bằng cách lặp mảng giỏ hàng , cộng dồn thành tiền
               $price_total = 0;
               foreach ($_SESSION['cart'] AS $product_id => $cart){
                   $price_total += $cart['price'] * $cart['quantity'];
               }
               $order_model->price_total = $price_total;
-              // bình thường khi insert vào bảng thì trả về boolean, tuy
-              //nhiên với trường hợp này sẽ cần trả về id của chính đơn hàng
-              //vừa insert , vì còn phải lưu vào bảng order_details
               $order_id = $order_model->insert();
-              //var_dump($order_id);
-              //sau bước tri=ên lấy dk order_id , tiếp theo sẽ lưu tiếp vào bảng
-              //order_details - bảng này mô tả dơn hàng có các sản phẩm nào
-              //số luwojgn tương ứng là bao nhiêu
               $order_detail_model = new OrderDetail();
-              //lặp giỏ hàng ddeed lưu các thông tin vè product_id và quantity vào bảng order_details
               foreach ($_SESSION['cart'] AS $product_id => $cart){
                     $order_detail_model->order_id = $order_id;
                     $order_detail_model->product_id = $product_id;
@@ -72,8 +48,6 @@ class PaymentController extends Controller {
               //gửi mail cho khách hàng
              // $body = $this->render('views/payments/mail_template_order');
              // $this->sendMail($email,$body);
-              //kiểm tra phương thức thanh toán user muốn là gì, dựa vào key method
-              //nếu là thanh toán trực truyến thì chuyển hướng tới trang ngân lượng
               if($method == 0){
                   $_SESSION['payment_info']=[
                       'price_total' => $price_total,
@@ -90,10 +64,8 @@ class PaymentController extends Controller {
           }
       }
 
-    //Lấy nội dung view payment
-    $this->content =
-        $this->render('views/payments/index.php');
-    //Gọi layout để hiển thị nội dung view vừa lấy đc
+
+    $this->content =$this->render('views/payments/index.php');
     require_once 'views/layouts/main.php';
   }
     //phương thức gửi mail

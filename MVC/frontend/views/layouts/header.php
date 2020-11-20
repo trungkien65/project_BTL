@@ -39,13 +39,20 @@ require_once 'helpers/Helper.php';
                                 <button type="button" data-toggle="modal" data-target="#exampleModal"> <span class="far fa-user"></span></button>
                             </li>
                             <li class="toyscart toyscart2 cart cart box_1">
-                                <form action="#" method="post" class="last">
-                                    <input type="hidden" name="cmd" value="_cart">
-                                    <input type="hidden" name="display" value="1">
-                                    <button class="top_toys_cart" type="submit" name="submit" value="">
-                                        <span class="fas fa-cart-arrow-down"></span>
-                                    </button>
-                                </form>
+                                <a href="index.php?controller=cart&action=index">
+                                    <span class="fas fa-cart-arrow-down"></span>
+                                    <?php
+                                    $cart_total = 0;
+                                    if (isset($_SESSION['cart'])) {
+                                        foreach ($_SESSION['cart'] AS $cart) {
+                                            $cart_total += $cart['quantity'];
+                                        }
+                                    }
+                                    ?>
+                                </a>
+                                <span class="cart-amount">
+                                                <?php echo $cart_total; ?>
+                                        </span>
                             </li>
                         </ul>
                     </div>

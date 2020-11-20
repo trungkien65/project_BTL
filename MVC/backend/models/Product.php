@@ -18,9 +18,7 @@ class Product extends Model
     public $status;
     public $created_at;
     public $updated_at;
-    /*
-     * Chuỗi search, sinh tự động dựa vào tham số GET trên Url
-     */
+
     public $str_search = '';
 
     public function __construct()
@@ -35,7 +33,7 @@ class Product extends Model
     }
 
     /**
-     * Lấy thông tin của sản phẩm đang có trên hệ thống
+     *
      * @return array
      */
     public function getAll()
@@ -55,7 +53,7 @@ class Product extends Model
     }
 
     /**
-     * Lấy thông tin của sản phẩm đang có trên hệ thống
+     *
      * @param array Mảng các tham số phân trang
      * @return array
      */

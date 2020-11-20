@@ -2,7 +2,6 @@
 require_once 'helpers/Helper.php';
 /**
  * views/carts/index.php
- * Trang Giỏ hàng của bạn
  */
 ?>
 <!--Nếu tồn tại giỏ hàng, thì hiển thị ra màn hình-->
@@ -10,7 +9,7 @@ require_once 'helpers/Helper.php';
     <h2>Giỏ hàng của bạn</h2>
   <?php if (isset($_SESSION['cart'])): ?>
       <form action="" method="post">
-          <table class="table table-bordered">
+          <table class="table table-bordered cart-con">
               <tbody>
               <tr>
                   <th width="40%">Tên sản phẩm</th>
@@ -19,13 +18,9 @@ require_once 'helpers/Helper.php';
                   <th>Thành tiền</th>
                   <th></th>
               </tr>
-
               <?php
-              //Khai báo biến lưu tổng giá trị đơn hàng
               $total_cart = 0;
               foreach($_SESSION['cart'] AS $product_id => $cart):
-                //hàm getSlug chuyển các text ở dạng có dấu
-                //về dạng ko dấu, ngăn cách các từ bởi ký tự -
                 $slug = Helper::getSlug($cart['name']);
                 $product_link = "chi-tiet-san-pham/$slug/$product_id";
               ?>
@@ -42,10 +37,6 @@ require_once 'helpers/Helper.php';
                       </div>
                   </td>
                   <td>
-                      <!-- cần khéo léo đặt name cho input số lượng,
-                       để khi xử lý submit form update lại giỏ hàng
-                        sẽ đơn giản hơn, cần đặt name của số lượng chính là
-                            id của sản phẩm -->
                       <input type="number" min="0"
                              name="<?php echo $product_id?>"
                              class="product-amount form-control"
@@ -58,9 +49,7 @@ require_once 'helpers/Helper.php';
                   </td>
                   <td>
                       <?php
-                      //Thành tiền = số lượng * giá
                       $total_item = $cart['quantity'] * $cart['price'];
-                      //Cộng dồn cho tổng giá trị đơn hàng
                       $total_cart += $total_item;
                       echo number_format($total_item);
                       ?>

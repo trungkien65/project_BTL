@@ -60,3 +60,41 @@
     </div>
 </footer>
 <!--footer-->
+
+<!--js working-->
+            <script src='assets/js/jquery-2.2.3.min.js'></script>
+            <!--//js working-->
+            <!-- cart-js -->
+            <script src="assets/js/minicart.js"></script>
+
+            <!-- //cart-js -->
+            <script src="assets/js/jquery-ui.js"></script>
+
+            <script src="assets/js/imagezoom.js"></script>
+            <!--responsiveslides banner-->
+            <script src="assets/js/responsiveslides.min.js"></script>
+            <!--// responsiveslides banner-->
+            <script src="assets/js/easy-responsive-tabs.js"></script>
+
+            <!--slider flexisel -->
+            <script src="assets/js/jquery.flexisel.js"></script>
+            <script>
+
+            </script>
+            <!-- //slider flexisel -->
+            <script src="assets/js/jquery.flexslider.js"></script>
+            <script>
+                // Can also be used with $(document).ready()
+
+            </script>
+            <!-- start-smoth-scrolling -->
+            <script src="assets/js/move-top.js"></script>
+            <script src="assets/js/easing.js"></script>
+
+            <!-- start-smoth-scrolling -->
+            <!-- here stars scrolling icon -->
+            <!-- //here ends scrolling icon -->
+            <!--bootstrap working-->
+            <script src="assets/js/bootstrap.min.js"></script>
+            <!-- //bootstrap working-->
+            <script src="assets/js/script.js"></script>

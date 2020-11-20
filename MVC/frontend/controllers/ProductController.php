@@ -9,7 +9,7 @@ class ProductController extends Controller {
         if (isset($_POST['filter'])) {
             if (isset($_POST['category'])) {
                 $category = implode(',', $_POST['category']);
-                //chuyển thành chuỗi sau để sử dụng câu lệnh in_array
+
                 $str_category_id = "($category)";
                 $params['category'] = $str_category_id;
             }

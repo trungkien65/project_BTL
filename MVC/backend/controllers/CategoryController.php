@@ -8,19 +8,19 @@ class CategoryController extends Controller
 
     public function index()
     {
-        //hiển thị danh sách category
+
         $category_model = new Category();
-        //do có sử dụng phân trang nên sẽ khai báo mảng các params
+
         $params = [
-            'limit' => 5, //giới hạn 5 bản ghi 1 trang
+            'limit' => 5,
             'query_string' => 'page',
             'controller' => 'category',
             'action' => 'index',
             'full_mode' => FALSE,
         ];
-//    mặc đinh page hiện tại là 1
+
         $page = 1;
-        //nếu có truyền tham số page lên trình duyêt - tương đương đang ở tại trang nào, thì gán giá trị đó cho biến $page
+
         if (isset($_GET['page'])) {
             $page = $_GET['page'];
         }
@@ -29,27 +29,21 @@ class CategoryController extends Controller
             $params['query_additional'] = '&name=' . $_GET['name'];
         }
 
-        //lấy tổng số bản ghi dựa theo các điều kiện có được từ mảng params truyền vào
         $count_total = $category_model->countTotal();
         $params['total'] = $count_total;
 
-        //gán biến name cho mảng params với key là name
         $params['page'] = $page;
         $pagination = new Pagination($params);
-        //lấy ra html phân trang
+
         $pages = $pagination->getPagination();
 
-        //lấy danh sách category sử dụng phân trang
         $categories = $category_model->getAllPagination($params);
 
         $this->content = $this->render('views/categories/index.php', [
-            //truyền biến $categories ra vew
             'categories' => $categories,
-            //truyền biến phân trang ra view
             'pages' => $pages,
         ]);
 
-        //gọi layout để nhúng thuộc tính $this->content
         require_once 'views/layouts/main.php';
     }
 
@@ -113,17 +107,13 @@ class CategoryController extends Controller
 
         }
 
-        //lấy nội dung view create.php
         $this->content = $this->render('views/categories/create.php');
-        //gọi layout để nhúng nội dung view create vừa lấy đc
         require_once 'views/layouts/main.php';
     }
 
     public function update()
     {
-        //về cơ bản update sẽ khá giống create
-        //lấy category theo id bắt đươc
-        //check validate nếu id không tồn tại thì báo lỗi
+
         if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
             $_SESSION['error'] = 'ID category không hợp lệ';
             header('Location: index.php?controller=category&action=index');
@@ -170,23 +160,20 @@ class CategoryController extends Controller
                     if (!file_exists($dir_uploads)) {
                         mkdir($dir_uploads);
                     }
-                    //xóa file ảnh cũ đi
+                    //xóa file ảnh cũ
                     @unlink($dir_uploads . '/' . $avatar);
                     //tạo tên file mới và save
                     $avatar = time() . '-' . $avatar_files['name'];
 
                     move_uploaded_file($avatar_files['tmp_name'], $dir_uploads . '/' . $avatar);
                 }
-                //lưu vào csdl
-                //gọi model để thực  hiện lưu
+
                 $category_model = new Category();
-                //gán các giá trị từ form cho các thuộc tính của category
                 $category_model->name = $name;
                 $category_model->avatar = $avatar;
                 $category_model->description = $description;
                 $category_model->status = $status;
                 $category_model->updated_at = date('Y-m-d H:i:s');
-                //gọi phương thức update theo id
                 $is_update = $category_model->update($id);
                 if ($is_update) {
                     $_SESSION['success'] = 'Update thành công';
@@ -199,9 +186,11 @@ class CategoryController extends Controller
 
         }
 
-        //lấy nội dung view create.php
-        $this->content = $this->render('views/categories/update.php', ['category' => $category]);
-        //gọi layout để nhúng nội dung view create vừa lấy đc
+
+        $this->content = $this->render('views/categories/update.php',
+            ['category' => $category]
+        );
+
         require_once 'views/layouts/main.php';
     }
 
@@ -234,11 +223,9 @@ class CategoryController extends Controller
         $id = $_GET['id'];
         $category_model = new Category();
         $category = $category_model->getCategoryById($id);
-        //lấy nội dung view create.php
         $this->content = $this->render('views/categories/detail.php', [
             'category' => $category
         ]);
-        //gọi layout để nhúng nội dung view detail vừa lấy đc
         require_once 'views/layouts/main.php';
 
     }

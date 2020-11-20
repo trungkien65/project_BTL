@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nvmanh
- * Date: 5/2/2020
- * Time: 10:14 AM
- */
 class Helper
 {
     const STATUS_ACTIVE = 1;

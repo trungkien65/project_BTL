@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 20, 2020 at 01:56 PM
+-- Generation Time: Nov 20, 2020 at 04:20 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.7
 
@@ -101,6 +101,14 @@ CREATE TABLE `orders` (
   `updated_at` datetime DEFAULT NULL COMMENT 'Ngày cập nhật cuối'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`id`, `user_id`, `fullname`, `address`, `mobile`, `email`, `note`, `price_total`, `payment_status`, `created_at`, `updated_at`) VALUES
+(1, NULL, 'hi', 'aaaa', 123456, 'godnaruto6519@gmail.com', '', 11000000, 0, '2020-11-20 14:22:38', NULL),
+(2, NULL, 'hi', 'aaaa', 123456, 'godnaruto6519@gmail.com', '', 11000000, 0, '2020-11-20 14:25:53', NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -112,6 +120,16 @@ CREATE TABLE `order_details` (
   `product_id` int(11) DEFAULT NULL COMMENT 'Id của product tương ứng, là khóa ngoại liên kết với bảng products',
   `quantity` int(11) DEFAULT NULL COMMENT 'Số sản phẩm đã đặt'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `order_details`
+--
+
+INSERT INTO `order_details` (`order_id`, `product_id`, `quantity`) VALUES
+(1, 2, 4),
+(1, 3, 1),
+(2, 2, 4),
+(2, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -294,7 +312,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `products`

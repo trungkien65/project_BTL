@@ -84,10 +84,10 @@ require_once 'helpers/Helper.php';
                                                         </div>
                                                         <div class="toys single-item hvr-outline-out">
                                                             <form action="#" method="post">
-                                                    <span data-id="<?php echo $product['id'] ?>"
-                                                          class="add-to-cart">
-                                                        <a href="#" style="color: white" class="btn btn-danger">Thêm vào giỏ</a>
-                                                    </span>
+                                                                <span data-id="<?php echo $product['id'] ?>"
+                                                                      class="add-to-cart">
+                                                                    <a href="#" style="color: white" class="btn btn-danger">Thêm vào giỏ</a>
+                                                                </span>
                                                             </form>
                                                         </div>
                                                     </div>

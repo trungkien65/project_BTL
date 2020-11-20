@@ -2,8 +2,7 @@
 //models/Category
 require_once 'models/Model.php';
 class Category extends Model {
-    //khai báo các thuộc tính cho model trùng với các trường
-//    của bảng categories
+
     public $id;
     public $name;
     public $avatar;
@@ -12,15 +11,14 @@ class Category extends Model {
     public $created_at;
     public $updated_at;
 
-    //insert dữ liệu vào bảng categories
+
     public function insert() {
         $sql_insert =
             "INSERT INTO categories(`name`, `avatar`, `description`, `status`)
 VALUES (:name, :avatar, :description, :status)";
-        //cbi đối tượng truy vấn
+
         $obj_insert = $this->connection
             ->prepare($sql_insert);
-        //gán giá trị thật cho các placeholder
         $arr_insert = [
             ':name' => $this->name,
             ':avatar' => $this->avatar,
@@ -31,29 +29,25 @@ VALUES (:name, :avatar, :description, :status)";
     }
 
     /**
-     * LẤy thông tin danh mục trên hệ thống
-     * @param $params array Mảng các tham số search
+     *
+     * @param $params array
      * @return array
      */
     public function getAll($params = []) {
-        echo "<pre>";
+        /*echo "<pre>";
         print_r($params);
-        echo "</pre>";
-        //tạo 1 chuỗi truy vấn để thêm các điều kiện search
-        //dựa vào mảng params truyền vào
+        echo "</pre>";*/
         $str_search = 'WHERE TRUE';
-        //check mảng param truyền vào để thay đổi lại chuỗi search
         if (isset($params['name']) && !empty($params['name'])) {
             $name = $params['name'];
-            //nhớ phải có dấu cách ở đầu chuỗi
+
             $str_search .= " AND `name` LIKE '%$name%'";
         }
         if (isset($params['status'])) {
             $status = $params['status'];
             $str_search .= " AND `status` = $status";
         }
-        //tạo câu truy vấn
-        //gắn chuỗi search nếu có vào truy vấn ban đầu
+
         $sql_select_all = "SELECT * FROM categories $str_search";
         //cbi đối tượng truy vấn
         $obj_select_all = $this->connection
@@ -143,12 +137,8 @@ VALUES (:name, :avatar, :description, :status)";
         $limit = $params['limit'];
         $page = $params['page'];
         $start = ($page - 1) * $limit;
-        $obj_select = $this->connection
-            ->prepare("SELECT * FROM categories LIMIT $start, $limit");
+        $obj_select = $this->connection->prepare("SELECT * FROM categories LIMIT $start, $limit");
 
-//    do PDO coi tất cả các param luôn là 1 string, nên cần sử dụng bindValue / bindParam cho các tham số start và limit
-//        $obj_select->bindParam(':limit', $limit, PDO::PARAM_INT);
-//        $obj_select->bindParam(':start', $start, PDO::PARAM_INT);
         $obj_select->execute();
         $categories = $obj_select->fetchAll(PDO::FETCH_ASSOC);
 
