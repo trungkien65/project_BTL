@@ -33,14 +33,16 @@ class Product extends Model {
         return $products;
     }
 
-    /*public function getAqru() {
-        $sql_select_all = "SELECT * FROM products WHERE `status` = 1";
+    /*public function getFish() {
+        $sql_select_all = "SELECT products.*, categories.name 
+          AS category_name FROM products
+          INNER JOIN categories ON products.category_id = categories.id
+          WHERE categories.type = 0";
         $obj_select_all = $this->connection->prepare($sql_select_all);
         $obj_select_all->execute();
         $products = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
         return $products;
     }*/
-
 
     /**
    * Lấy thông tin sản phẩm theo id

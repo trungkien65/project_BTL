@@ -21,16 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/show_all.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/show_all.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,8 @@
       <workItem from="1605659411050" duration="10546000" />
       <workItem from="1605748020721" duration="9666000" />
       <workItem from="1605757915056" duration="1911000" />
-      <workItem from="1605792165497" duration="1523000" />
+      <workItem from="1605792165497" duration="4565000" />
+      <workItem from="1605837399629" duration="1581000" />
     </task>
     <servers />
   </component>

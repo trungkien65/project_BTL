@@ -16,14 +16,14 @@ require_once 'helpers/Helper.php';
         <div class="container">
             <div class="inner-sec-shop pt-lg-4 pt-3">
                 <div class="row">
-                    <div class="col-lg-6 single-right-left ">
+                    <div class="col-lg-5 single-right-left ">
                         <div class="grid images_3_of_2">
                             <img src="../backend/assets/uploads/<?php echo $product['avatar'] ?>"
                                  class="img-thumbnail pro-img" title="<?php echo $product['title'] ?>"
                                  alt="<?php echo $product['title'] ?>">
                         </div>
                     </div>
-                    <div class="col-lg-6 single-right-left simpleCart_shelfItem">
+                    <div class="col-lg-5 single-right-left simpleCart_shelfItem">
                         <h3><?php echo $product['title'] ?></h3>
                         <div><?php echo $product['summary'] ?></div>
                         <p><span class="item_price"><?php echo number_format($product['price']) ?> đ</span>

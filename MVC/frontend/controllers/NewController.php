@@ -4,11 +4,11 @@ require_once 'models/BNew.php';
 
 class  NewController extends Controller{
     public  function index() {
-        $BNew_model = new BNew();
-        $BNews = $BNew_model->getAll();
+        $bnew_model = new BNew();
+        $bnews = $bnew_model->getAll();
 
         $this->content = $this->render('views/news/index.php', [
-            'BNews' => $BNews
+            'bnews' => $bnews
         ]);
         require_once 'views/layouts/main.php';
     }

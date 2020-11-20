@@ -47,7 +47,7 @@ require_once 'helpers/Helper.php';
             </div>
             <div class=" side-bar left-ads-display col-lg-9 rounded content-cat">
                 <div>
-                    <div class="header-cat"><h4>Sản phẩm nổi bật</h4></div>
+                    <div class="header-cat"><h4>Sản phẩm bán chạy</h4></div>
                     <div>
                         <?php if (!empty($products)): ?>
                             <div class="row">
@@ -103,7 +103,7 @@ require_once 'helpers/Helper.php';
                     </div>
                 </div>
                 <div>
-                    <div class="header-cat"><h4>Bể cá nổi bật</h4></div>
+                    <div class="header-cat"><h4>Bể cá bán chạy</h4></div>
                     <div>
                         <?php if (!empty($products)): ?>
                             <div class="row">
@@ -165,24 +165,24 @@ require_once 'helpers/Helper.php';
 <!--    END PRODUCT-->
 <!--NEW-->
 <section class="new-content">
-    <div class="container-fluid new-con">
-        <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Tin tức</h3>
+    <div class="container-fluid">
+        <h3 class="title text-center header-cat">Tin tức</h3>
         <?php if(!empty($bnews)):?>
-            <div class="row">
+            <div class="row content">
                 <?php foreach ($bnews AS $bnew):?>
-                    <div class="col-md-6">
-                        <div class="knew-div">
-                            <img src="../backend/assets/uploads/<?php echo $bnew['avatar'] ?>"
-                                 class="img-thumbnail img-fluid knew-img"
-                                 alt="<?php echo $bnew['title'] ?>">
-                        </div>
-                        <div class="mt-lg-4 mt-3 knew-div-title">
-                            <p><?php echo $bnew['title'] ?></p>
-                            <div class="clients_more-buttn">
-                                <a href="shop.html">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-3 knew-div">
+                    <img src="../backend/assets/uploads/<?php echo $bnew['avatar'] ?>"
+                        class="img-thumbnail img-fluid knew-img"
+                        alt="<?php echo $bnew['title'] ?>">  
+                    <div class="clients_more-buttn">
+                        <a href="shop.html" >Xem ngay</a>
+                    </div>          
+                </div>
+                <div class="col-lg-3">
+                    <p><a href=""><b><?php echo $bnew['title'] ?></b></a></p>
+                    <p>   -    <?php echo $bnew['summary'] ?></p>
+                </div>
+                <div class="clearfix"> </div>
                 <?php endforeach;?>
             </div>
         <?php endif;?>
