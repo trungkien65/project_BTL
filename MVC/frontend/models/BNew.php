@@ -8,4 +8,13 @@ class BNew extends Model {
         $Bnews = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
         return $Bnews;
     }
+
+    public function getById($id)
+    {
+        $obj_select = $this->connection
+            ->prepare("SELECT news.* FROM news WHERE news.id = $id");
+
+        $obj_select->execute();
+        return $obj_select->fetch(PDO::FETCH_ASSOC);
+    }
 }

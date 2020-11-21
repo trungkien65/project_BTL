@@ -46,22 +46,22 @@
                   class="form-control"><?php echo isset($_POST['content']) ? $_POST['content'] : '' ?></textarea>
     </div>
 
-    <div class="form-group">
+    <!--<div class="form-group">
         <label for="seo-title">Seo title</label>
-        <input type="text" name="seo_title" value="<?php echo isset($_POST['seo_title']) ? $_POST['seo_title'] : '' ?>"
+        <input type="text" name="seo_title" value="<?php /*echo isset($_POST['seo_title']) ? $_POST['seo_title'] : '' */?>"
                class="form-control" id="seo-title"/>
     </div>
     <div class="form-group">
         <label for="seo-description">Seo description</label>
-        <input type="text" name="seo_description" value="<?php echo isset($_POST['seo_description']) ? $_POST['seo_description'] : '' ?>"
+        <input type="text" name="seo_description" value="<?php /*echo isset($_POST['seo_description']) ? $_POST['seo_description'] : '' */?>"
                class="form-control" id="seo-description"/>
     </div>
 
     <div class="form-group">
         <label for="seo-keywords">Seo keywords</label>
-        <input type="text" name="seo_keywords" value="<?php echo isset($_POST['seo_keywords']) ? $_POST['seo_keywords'] : '' ?>"
+        <input type="text" name="seo_keywords" value="<?php /*echo isset($_POST['seo_keywords']) ? $_POST['seo_keywords'] : '' */?>"
                class="form-control" id="seo-keywords"/>
-    </div>
+    </div>-->
 
     <div class="form-group">
         <label for="status">Trạng thái</label>

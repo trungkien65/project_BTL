@@ -40,6 +40,8 @@
             }
         }
         ?>
+        <label>Trạng thái</label>
+        <select name="status" class="form-control">
         <option value="0" <?php echo $selected_user; ?>>Admin</option>
         <option value="1" <?php echo $selected_admin; ?>>user</option>
         </select>

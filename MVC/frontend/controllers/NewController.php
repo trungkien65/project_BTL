@@ -12,5 +12,23 @@ class  NewController extends Controller{
         ]);
         require_once 'views/layouts/main.php';
     }
+
+    public function detail() {
+        if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
+            $_SESSION['error'] = 'ID ko hợp lệ';
+            $url_redirect = $_SERVER['SCRIPT_NAME'] . '/';
+            header("Location: $url_redirect");
+            exit();
+        }
+
+        $id = $_GET['id'];
+        $bnew_model = new BNew();
+        $bnew = $bnew_model->getById($id);
+
+        $this->content = $this->render('views/news/detail.php', [
+            'bnew' => $bnew
+        ]);
+        require_once 'views/layouts/main.php';
+    }
 }
 ?>

@@ -21,6 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/helpers/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +83,7 @@
       <workItem from="1605792165497" duration="4565000" />
       <workItem from="1605837399629" duration="1581000" />
       <workItem from="1605877176456" duration="8337000" />
-      <workItem from="1605920920416" duration="674000" />
+      <workItem from="1605920920416" duration="6462000" />
     </task>
     <servers />
   </component>
@@ -99,14 +111,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605016372989" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605879862543">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605926743240">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605879862543" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605926743240" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1605596256041">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605596256041" />
+    <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1605925146993">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="585" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1605925146993" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1605619990873">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

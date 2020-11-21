@@ -22,18 +22,18 @@ require_once 'helpers/Helper.php';
         <th>Giá</th>
         <td><?php echo number_format($product['price']) ?></td>
     </tr>
-    <tr>
+    <!--<tr>
         <th>Seo Title</th>
-        <td><?php echo $product['seo_title'] ?></td>
+        <td><?php /*echo $product['seo_title'] */?></td>
     </tr>
     <tr>
         <th>Seo description</th>
-        <td><?php echo $product['seo_description'] ?></td>
+        <td><?php /*echo $product['seo_description'] */?></td>
     </tr>
     <tr>
         <th>Seo keywords</th>
-        <td><?php echo $product['seo_keywords'] ?></td>
-    </tr>
+        <td><?php /*echo $product['seo_keywords'] */?></td>
+    </tr>-->
     <tr>
         <th>Trạng thái</th>
         <td><?php echo Helper::getStatusText($product['status']) ?></td>

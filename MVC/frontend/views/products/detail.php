@@ -36,7 +36,7 @@ require_once 'helpers/Helper.php';
                             </form>
                         </div>
                         <ul class="footer-social text-left mt-lg-4 mt-3">
-                            <li>Share On : </li>
+                            <li>Chia sẻ : </li>
                             <li class="mx-1">
                                 <a href="#">
                                     <span class="fab fa-facebook-f"></span>

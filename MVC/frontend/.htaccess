@@ -8,6 +8,7 @@ RewriteRule ca-canh.html index.php?controller=product&action=getfish
 RewriteRule be-ca.html index.php?controller=product&action=getaqru
 RewriteRule phu-kien.html index.php?controller=product&action=getaccessories
 RewriteRule tin-tuc.html index.php?controller=new&action=index
+RewriteRule tin-tuc/(.*)/([0-9]{1,}).html index.php?controller=new&action=detail&title=$1&id=$2
 RewriteRule lien-he.html index.php?controller=home&action=index
 RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
 RewriteRule san-pham/(.*)/([0-9]{1,}).html index.php?controller=product&action=detail&title=$1&id=$2
