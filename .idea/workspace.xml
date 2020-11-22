@@ -21,18 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/helpers/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/models/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/models/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/NewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/BNew.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/login.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/news/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/products/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/news/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/news/detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,11 @@
       <workItem from="1605792165497" duration="4565000" />
       <workItem from="1605837399629" duration="1581000" />
       <workItem from="1605877176456" duration="8337000" />
-      <workItem from="1605920920416" duration="6462000" />
+      <workItem from="1605920920416" duration="6743000" />
+      <workItem from="1605929744086" duration="4234000" />
+      <workItem from="1605963933406" duration="9440000" />
+      <workItem from="1606009380941" duration="6809000" />
+      <workItem from="1606029591093" duration="3880000" />
     </task>
     <servers />
   </component>
@@ -107,18 +110,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="390" y="12" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1605364927607" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605971393162">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605971393162" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1605016372989">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605016372989" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605926743240">
+    <state x="432" y="92" key="NewPhpClassDialog" timestamp="1605932838998">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605926743240" />
+    <state x="432" y="92" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1605932838998" />
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1605971596653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605971596653" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1605596256041">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605596256041" />
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605930578057">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1605930578057" />
     <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1605925146993">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

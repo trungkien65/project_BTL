@@ -1,19 +1,5 @@
 <?php
-//models/Pagination.php
-//Class phân trang
-//ý tương của phân trang:
-//giả sử trong bảng categories có 36 bản ghi
-//và yêu cầu là hiển thị 10 bản ghi trên 1 trang
-//-> tổng số trang cần tạo để chứa hết 36 bản ghi
-// = ceil(36/10) = 4
-//như vậy cần xác định các tham số sau
-// - tổng số bản ghi: total
-// - số bản ghi trên 1 trang: limit
-//url phân trang sẽ có dạng sau, theo mô hình mvc
-//index.php?controller=category&action=index&page=3
-//- controller xử lý phân trang: controller
-//- action xử lý phân trang: action
-// - chế độ hiển thị phân trang: full_mode
+
 class Pagination
 {
 

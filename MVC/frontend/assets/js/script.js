@@ -151,4 +151,38 @@ $('.add-to-cart').click(function () {
         }
 
     });
+
+
 })
+    $('.register2').click(function () {
+        var product_id = $(this).attr('data-id');
+        console.log(product_id);
+        $.ajax({
+            method: 'GET',
+
+            url: 'index.php?controller=login&action=register',
+
+            data: {
+                users: users
+            },
+
+            success: function (data) {
+
+                $('.ajax-message').html('Thêm vào giỏ hàng thành công');
+
+                $('.ajax-message').addClass('ajax-message-active');
+
+                setTimeout(function () {
+                    $('.ajax-message').removeClass('ajax-message-active');
+                }, 3000);
+
+                var cart_total = $('.cart-amount').text();
+                cart_total++;
+                $('.cart-amount').text(cart_total);
+                $('.cart-amount-mobile').text(cart_total);
+            }
+
+        });
+
+
+    })

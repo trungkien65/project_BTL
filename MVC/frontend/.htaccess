@@ -14,3 +14,5 @@ RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
 RewriteRule san-pham/(.*)/([0-9]{1,}).html index.php?controller=product&action=detail&title=$1&id=$2
 RewriteRule xoa-san-pham/([0-9]{1,}).html index.php?controller=cart&action=delete&id=$1
 RewriteRule thanh-toan.html index.php?controller=payment&action=index
+RewriteRule dang-nhap.html index.php?controller=login&action=login
+RewriteRule dang-ky.html index.php?controller=login&action=register

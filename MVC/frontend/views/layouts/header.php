@@ -36,7 +36,10 @@ require_once 'helpers/Helper.php';
                     <div class="cart-icons">
                         <ul>
                             <li>
-                                <button type="button" data-toggle="modal" data-target="#exampleModal"> <span class="far fa-user"></span></button>
+                                <a href="dang-nhap.html"><span class="span-modal">Đăng nhập</span></a>
+                            </li>
+                            <li>
+                                <a href="dang-ky.html"><span class="span-modal">Đăng ký</span></a>
                             </li>
                             <li class="toyscart toyscart2 cart cart box_1">
                                 <a href="index.php?controller=cart&action=index">
@@ -50,9 +53,11 @@ require_once 'helpers/Helper.php';
                                     }
                                     ?>
                                 </a>
-                                <span class="cart-amount">
-                                                <?php echo $cart_total; ?>
-                                        </span>
+                            </li>
+                            <li>
+                                <span class="cart-amount span-modal">
+                                    <?php echo $cart_total; ?>
+                                </span>
                             </li>
                         </ul>
                     </div>
