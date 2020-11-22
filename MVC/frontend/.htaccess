@@ -16,3 +16,4 @@ RewriteRule xoa-san-pham/([0-9]{1,}).html index.php?controller=cart&action=delet
 RewriteRule thanh-toan.html index.php?controller=payment&action=index
 RewriteRule dang-nhap.html index.php?controller=login&action=login
 RewriteRule dang-ky.html index.php?controller=login&action=register
+RewriteRule dang-xuat.html index.php?controller=user&action=logout

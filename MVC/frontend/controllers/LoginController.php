@@ -132,4 +132,13 @@ class LoginController
         $this->content = $this->render('views/users/register.php');
         require_once 'views/layouts/main.php';
     }
+
+    /*public function logout()
+    {
+        $_SESSION = [];
+        session_destroy();
+        $_SESSION['success'] = 'Logout thành công';
+        header('Location: trang-chu.html');
+        exit();
+    }*/
 }

@@ -35,12 +35,26 @@ require_once 'helpers/Helper.php';
                 <div class="col-lg-4 col-md-3 right-side-cart">
                     <div class="cart-icons">
                         <ul>
-                            <li>
-                                <a href="dang-nhap.html"><span class="span-modal">Đăng nhập</span></a>
-                            </li>
-                            <li>
-                                <a href="dang-ky.html"><span class="span-modal">Đăng ký</span></a>
-                            </li>
+                            <?php if(isset($_SESSION['user'])):?>
+                                <li>
+                                    <a href="#"><span class="span-modal"><?php echo $_SESSION['user']['username'];?></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="span-modal">Đăng xuất</span>
+                                    <?php
+                                        $_SESSION = [];
+                                        session_destroy();
+                                    ?>
+                                    </a>
+                                </li>
+                             <?php else: ?>
+                                <li>
+                                    <a href="dang-nhap.html"><span class="span-modal">Đăng nhập</span></a>
+                                </li>
+                                <li>
+                                    <a href="dang-ky.html"><span class="span-modal">Đăng ký</span></a>
+                                </li>
+                            <?php endif;?>
                             <li class="toyscart toyscart2 cart cart box_1">
                                 <a href="index.php?controller=cart&action=index">
                                     <span class="fas fa-cart-arrow-down"></span>

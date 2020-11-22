@@ -43,6 +43,12 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 </head>
 <body>
+
+<?php
+/*echo "<pre>";
+print_r($_SESSION);
+echo "</pre>";
+*/?>
     <div class="set-width">
         <!--header-->
         <?php require_once 'header.php';?>

@@ -21,17 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/models/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/models/Pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/backend/views/users/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/users/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/login.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/news/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/news/detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +80,7 @@
       <workItem from="1605929744086" duration="4234000" />
       <workItem from="1605963933406" duration="9440000" />
       <workItem from="1606009380941" duration="6809000" />
-      <workItem from="1606029591093" duration="3880000" />
+      <workItem from="1606029591093" duration="4679000" />
     </task>
     <servers />
   </component>

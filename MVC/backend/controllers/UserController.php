@@ -204,11 +204,6 @@ class UserController extends Controller
 
         require_once 'views/layouts/main.php';
 
-        echo "<pre>";
-        print_r($_GET);
-        echo "</pre>";
-
-
     }
 
     public function delete()
