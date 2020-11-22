@@ -63,7 +63,7 @@ if (isset($_SESSION['user'])) {
                                 </li>
                             <?php endif;?>
                             <li class="toyscart toyscart2 cart cart box_1">
-                                <a href="index.php?controller=cart&action=index">
+                                <a href="gio-hang-cua-ban.html">
                                     <span class="fas fa-cart-arrow-down"></span>
                                     <?php
                                     $cart_total = 0;

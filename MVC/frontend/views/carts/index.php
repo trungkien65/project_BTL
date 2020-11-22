@@ -9,7 +9,7 @@ require_once 'helpers/Helper.php';
     <h2>Giỏ hàng của bạn</h2>
   <?php if (isset($_SESSION['cart'])): ?>
       <form action="" method="post">
-          <table class="table table-bordered cart-con">
+          <table class="table table-bordered ">
               <tbody>
               <tr>
                   <th width="40%">Tên sản phẩm</th>
@@ -26,7 +26,7 @@ require_once 'helpers/Helper.php';
               ?>
                 <tr>
                   <td>
-                      <img class="product-avatar img-responsive"
+                      <img class="product-avatar "
                            src="../backend/assets/uploads/<?php echo $cart['avatar'] ?>"
                            width="80">
                       <div class="content-product">

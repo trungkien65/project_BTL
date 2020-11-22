@@ -60,18 +60,6 @@ class LoginController
                     exit();
                 }
 
-
-//            elseif ($_SESSION['user']['status'] == 0){
-//                $_SESSION['success'] = 'Đăng nhập thành công';
-//                $_SESSION['user'] = $user;
-//                function Redirect($url, $permanent = false)
-//                {
-//                    header('Location: ' . $url, true, $permanent ? 301 : 302);
-//
-//                    exit();
-//                }
-//                Redirect('http://localhost/project_BTL/MVC/backend/index.php?controller=product', false);
-//            }
             }
         }
         $this->content = $this->render('views/users/login.php');

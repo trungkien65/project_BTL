@@ -54,7 +54,7 @@ require_once 'helpers/Helper.php';
                             <tr>
                                 <td>
                                     <?php if (!empty($cart['avatar'])): ?>
-                                        <img class="product-avatar img-responsive"
+                                        <img class="product-avatar "
                                              src="../backend/assets/uploads/<?php echo $cart['avatar']; ?>" width="60"/>
                                     <?php endif; ?>
                                     <div class="content-product">

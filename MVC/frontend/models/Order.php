@@ -31,4 +31,12 @@ class Order extends Model {
       return $order_id;
 
   }
+
+    public function getAll() {
+        $sql_select_all = "SELECT * FROM orders WHERE `payment_status` = 1";
+        $obj_select_all = $this->connection->prepare($sql_select_all);
+        $obj_select_all->execute();
+        $orders = $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
+        return $orders;
+    }
 }
