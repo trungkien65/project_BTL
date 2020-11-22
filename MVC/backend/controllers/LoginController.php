@@ -25,8 +25,13 @@ class LoginController
 
     public function login() {
         if (isset($_SESSION['user'])) {
-            header('Location: index.php?controller=category&action=index');
-            exit();
+            if ($_SESSION['user']['status'] == 0){
+                header("Location: index.php?controller=product");
+                exit();
+            } else {
+                header("Location: http://localhost/project_BTL/MVC/frontend/index.php?controller=home&action=index");
+                exit();
+            }
         }
         if (isset($_POST['submit'])) {
             $username = $_POST['username'];
@@ -41,10 +46,15 @@ class LoginController
                 $user = $user_model->getUserByUsernameAndPassword($username, $password);
                 if (empty($user)) {
                     $this->error = 'Sai username hoặc password';
-                } else {
+                } elseif ($user['status'] == 0){
                     $_SESSION['success'] = 'Đăng nhập thành công';
                     $_SESSION['user'] = $user;
                     header("Location: index.php?controller=product");
+                    exit();
+                } else {
+                    $_SESSION['success'] = 'Đăng nhập thành công';
+                    $_SESSION['user'] = $user;
+                    header("Location: http://localhost/project_BTL/MVC/frontend/trang-chu.html");
                     exit();
                 }
             }

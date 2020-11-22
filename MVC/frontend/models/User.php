@@ -60,6 +60,7 @@ VALUES(:username, :password, :first_name, :last_name, :phone, :address, :email, 
         $arr_select = [
             ':username' => $username,
             ':password' => $password,
+            //'status' =>$this->status,
         ];
         $obj_select->execute($arr_select);
 
@@ -67,6 +68,7 @@ VALUES(:username, :password, :first_name, :last_name, :phone, :address, :email, 
 
         return $user;
     }
+
 
     public function insertRegister() {
         $obj_insert = $this->connection->prepare("INSERT INTO users(username, password, first_name, last_name, phone, address, email, avatar, jobs, facebook)

@@ -26,9 +26,15 @@ class LoginController
 
     public function login() {
         if (isset($_SESSION['user'])) {
-            header('Location: trang-chu.html');
-            exit();
+            if ($_SESSION['user']['status'] == 0){
+                header("Location: http://localhost/project_BTL/MVC/backend/index.php?controller=product");
+                exit();
+            } else {
+                header("Location: index.php?controller=home&action=index");
+                exit();
+            }
         }
+        //$status = $_SESSION['user']['status'];
         if (isset($_POST['submit'])) {
             $username = $_POST['username'];
 
@@ -42,12 +48,30 @@ class LoginController
                 $user = $user_model->getUserByUsernameAndPassword($username, $password);
                 if (empty($user)) {
                     $this->error = 'Sai username hoặc password';
+                } elseif ($user['status'] == 0){
+                    $_SESSION['success'] = 'Đăng nhập thành công';
+                    $_SESSION['user'] = $user;
+                    header("Location: http://localhost/project_BTL/MVC/backend/index.php?controller=product");
+                    exit();
                 } else {
                     $_SESSION['success'] = 'Đăng nhập thành công';
                     $_SESSION['user'] = $user;
-                    header("Location: index.php?controller=home");
+                    header("Location: trang-chu.html");
                     exit();
                 }
+
+
+//            elseif ($_SESSION['user']['status'] == 0){
+//                $_SESSION['success'] = 'Đăng nhập thành công';
+//                $_SESSION['user'] = $user;
+//                function Redirect($url, $permanent = false)
+//                {
+//                    header('Location: ' . $url, true, $permanent ? 301 : 302);
+//
+//                    exit();
+//                }
+//                Redirect('http://localhost/project_BTL/MVC/backend/index.php?controller=product', false);
+//            }
             }
         }
         $this->content = $this->render('views/users/login.php');
@@ -133,12 +157,13 @@ class LoginController
         require_once 'views/layouts/main.php';
     }
 
-    /*public function logout()
+    public function logout()
     {
         $_SESSION = [];
         session_destroy();
         $_SESSION['success'] = 'Logout thành công';
         header('Location: trang-chu.html');
         exit();
-    }*/
+
+    }
 }

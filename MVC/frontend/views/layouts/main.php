@@ -45,10 +45,10 @@
 <body>
 
 <?php
-/*echo "<pre>";
-print_r($_SESSION);
-echo "</pre>";
-*/?>
+//echo "<pre>";
+//print_r($_SESSION);
+//echo "</pre>";
+//?>
     <div class="set-width">
         <!--header-->
         <?php require_once 'header.php';?>

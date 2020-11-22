@@ -1,6 +1,13 @@
 <?php
 //views/layouts/header.php
 require_once 'helpers/Helper.php';
+
+$username = '';
+
+if (isset($_SESSION['user'])) {
+    $username = $_SESSION['user']['username'];
+}
+
 ?>
 <!--header-->
 <div class="header-outs" id="home">
@@ -40,10 +47,10 @@ require_once 'helpers/Helper.php';
                                     <a href="#"><span class="span-modal"><?php echo $_SESSION['user']['username'];?></span></a>
                                 </li>
                                 <li>
-                                    <a href="#"><span class="span-modal">Đăng xuất</span>
+                                    <a href="dang-xuat.html"><span class="span-modal">Đăng xuất</span>
                                     <?php
-                                        $_SESSION = [];
-                                        session_destroy();
+                                        /*$_SESSION = [];
+                                        session_destroy();*/
                                     ?>
                                     </a>
                                 </li>

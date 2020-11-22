@@ -6,6 +6,7 @@ require_once 'models/BNew.php';
 
 class HomeController extends Controller {
   public function index() {
+
     $product_model = new Product();
     $products = $product_model->getProductInHomePage();
 
