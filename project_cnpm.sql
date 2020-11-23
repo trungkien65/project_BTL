@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 22, 2020 at 10:09 AM
+-- Generation Time: Nov 23, 2020 at 04:13 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.7
 
@@ -107,7 +107,20 @@ CREATE TABLE `orders` (
 
 INSERT INTO `orders` (`id`, `user_id`, `fullname`, `address`, `mobile`, `email`, `note`, `price_total`, `payment_status`, `created_at`, `updated_at`) VALUES
 (1, NULL, 'hi', 'aaaa', 123456, 'godnaruto6519@gmail.com', '', 11000000, 0, '2020-11-20 14:22:38', NULL),
-(2, NULL, 'hi', 'aaaa', 123456, 'godnaruto6519@gmail.com', '', 11000000, 0, '2020-11-20 14:25:53', NULL);
+(2, NULL, 'hi', 'aaaa', 123456, 'godnaruto6519@gmail.com', '', 11000000, 0, '2020-11-20 14:25:53', NULL),
+(3, NULL, 'aaaa', 'Hà Đông', 123446, 'abc@gmail.com', '', 2000000, 0, '2020-11-22 13:43:27', NULL),
+(4, NULL, 'bui the kien', 'Hà Đông', 98456123, 'godnaruto6519@gmail.com', 'đây là ghi chú', 12500000, 0, '2020-11-22 14:04:11', NULL),
+(5, NULL, 'bui the kien', 'Hà Đông', 98456123, 'godnaruto6519@gmail.com', 'đây là ghi chú', 12500000, 0, '2020-11-22 14:06:44', NULL),
+(6, NULL, 'bui the kien', 'Hà Đông', 98456123, 'godnaruto6519@gmail.com', 'đây là ghi chú', 12500000, 0, '2020-11-22 14:06:52', NULL),
+(7, NULL, 'bui the kien', 'Hà Đông', 98456123, 'godnaruto6519@gmail.com', 'đây là ghi chú', 12500000, 0, '2020-11-22 14:07:57', NULL),
+(8, NULL, 'aaaaaa', 'Hà Đông', 123456, 'godnaruto6519@gmail.com', 'test2', 17500000, 0, '2020-11-22 14:09:45', NULL),
+(9, NULL, 'bui the kien', 'Hà Nội', 123456789, 'buithekien651999@gmail.com', '', 5000000, 0, '2020-11-22 14:13:00', NULL),
+(10, NULL, 'bui the kien', 'Hà Nội', 123456789, 'godnaruto6519@gmail.com', 'test3\r\n', 5800000, 0, '2020-11-22 14:37:29', NULL),
+(11, NULL, 'bui the kien', 'Hà Nội', 344444, 'buithekien651999@gmail.com', 'test4', 8800000, 0, '2020-11-22 14:39:58', NULL),
+(12, NULL, 'aaaa', 'Hà Đông', 222222, 'godnaruto6519@gmail.com', '', 16800000, 0, '2020-11-22 14:42:33', NULL),
+(13, NULL, 'bui the kien', 'Hà Đông', 11111111, 'godnaruto6519@gmail.com', '', 16800000, 0, '2020-11-22 14:43:49', NULL),
+(14, NULL, 'bui the kien', 'Hà Đông', 5555555, 'godnaruto6519@gmail.com', 'ads', 21800000, 0, '2020-11-22 14:46:20', NULL),
+(15, NULL, 'hihi kien', 'aaaa', 123456, 'godnaruto6519@gmail.com', '', 14000000, 0, '2020-11-22 15:42:28', NULL);
 
 -- --------------------------------------------------------
 
@@ -129,7 +142,49 @@ INSERT INTO `order_details` (`order_id`, `product_id`, `quantity`) VALUES
 (1, 2, 4),
 (1, 3, 1),
 (2, 2, 4),
-(2, 3, 1);
+(2, 3, 1),
+(3, 2, 1),
+(4, 3, 2),
+(4, 4, 1),
+(4, 5, 1),
+(5, 3, 2),
+(5, 4, 1),
+(5, 5, 1),
+(6, 3, 2),
+(6, 4, 1),
+(6, 5, 1),
+(7, 3, 2),
+(7, 4, 1),
+(7, 5, 1),
+(8, 3, 2),
+(8, 4, 1),
+(8, 5, 1),
+(8, 10, 1),
+(9, 10, 1),
+(10, 10, 1),
+(10, 13, 1),
+(11, 10, 1),
+(11, 13, 1),
+(11, 3, 1),
+(12, 10, 1),
+(12, 13, 1),
+(12, 3, 1),
+(12, 4, 1),
+(12, 2, 2),
+(13, 10, 1),
+(13, 13, 1),
+(13, 3, 1),
+(13, 4, 1),
+(13, 2, 2),
+(14, 10, 2),
+(14, 13, 1),
+(14, 3, 1),
+(14, 4, 1),
+(14, 2, 2),
+(15, 10, 1),
+(15, 2, 1),
+(15, 3, 1),
+(15, 4, 1);
 
 -- --------------------------------------------------------
 
@@ -318,7 +373,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `products`

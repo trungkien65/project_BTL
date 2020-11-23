@@ -21,16 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/PaymentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/PaymentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/helpers/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/models/Order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/carts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/carts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/payments/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/payments/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/payments/mail_template_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/payments/mail_template_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/payments/thank.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/payments/thank.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +76,7 @@
       <workItem from="1605963933406" duration="9440000" />
       <workItem from="1606009380941" duration="6809000" />
       <workItem from="1606029591093" duration="10807000" />
-      <workItem from="1606041714700" duration="12686000" />
+      <workItem from="1606041714700" duration="13075000" />
     </task>
     <servers />
   </component>
