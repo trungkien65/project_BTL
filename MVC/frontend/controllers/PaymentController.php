@@ -79,7 +79,7 @@ class PaymentController extends Controller {
   }
 
   public function thank(){
-      $this->content = $this->render('views/payments/cam-on.php');
+      $this->content = $this->render('views/payments/thank.php');
       require_once 'views/layouts/main.php';
   }
 
