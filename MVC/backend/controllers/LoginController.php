@@ -26,7 +26,7 @@ class LoginController
     public function login() {
         if (isset($_SESSION['user'])) {
             if ($_SESSION['user']['status'] == 0){
-                header("Location: index.php?controller=product");
+                header("Location: index.php?controller=category&action=index");
                 exit();
             } else {
                 header("Location: http://localhost/project_BTL/MVC/frontend/index.php?controller=home&action=index");

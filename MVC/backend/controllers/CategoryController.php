@@ -12,9 +12,6 @@ class CategoryController extends Controller
             if ($_SESSION['user']['status'] == 1){
                 header("Location: http://localhost/project_BTL/MVC/frontend/trang-chu.html");
                 exit();
-            } else {
-                header("Location: index.php?controller=product");
-                exit();
             }
         }
 

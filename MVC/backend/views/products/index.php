@@ -3,11 +3,11 @@ require_once 'helpers/Helper.php';
 ?>
 <!--form search-->
 <form action="" method="GET">
-    <div class="form-group">
+    <!--<div class="form-group">
         <label for="title">Nhập title</label>
-        <input type="text" name="title" value="<?php echo isset($_GET['title']) ? $_GET['title'] : '' ?>" id="title"
+        <input type="text" name="title" value="<?php /*echo isset($_GET['title']) ? $_GET['title'] : '' */?>" id="title"
                class="form-control"/>
-    </div>
+    </div>-->
     <div class="form-group">
         <label for="title">Chọn danh mục</label>
         <select name="category_id" class="form-control">

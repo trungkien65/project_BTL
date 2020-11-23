@@ -21,6 +21,7 @@ class UserController extends Controller
             'query_string' => 'page',
             'controller' => 'user',
             'action' => 'index',
+            'full_mode' => FALSE,
             'page' => $page,
             'query_additional' => $query_additional
         ];

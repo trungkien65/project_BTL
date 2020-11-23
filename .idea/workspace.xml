@@ -21,6 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/models/Pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/models/Pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/categories/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/backend/views/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/backend/views/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/payments/mail_template_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/payments/mail_template_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/payments/thank.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/payments/thank.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +84,7 @@
       <workItem from="1606009380941" duration="6809000" />
       <workItem from="1606029591093" duration="10807000" />
       <workItem from="1606041714700" duration="13075000" />
+      <workItem from="1606136161078" duration="5354000" />
     </task>
     <servers />
   </component>

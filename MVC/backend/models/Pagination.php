@@ -77,7 +77,7 @@ class Pagination
     $action = $this->params['action'];
 
     $full_mode = $this->params['full_mode'];
-    if ($this->params['full_mode'] == FALSE) {
+    if ($full_mode == FALSE) {
       for ($page = 1; $page <= $total_page; $page++) {
         $current_page = $this->getCurrentPage();
         if ($page == 1 || $page == $total_page || $page  == $current_page - 1 || $page == $current_page + 1) {
