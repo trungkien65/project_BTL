@@ -47,7 +47,7 @@ require_once 'helpers/Helper.php';
             </div>
             <div class=" side-bar left-ads-display col-lg-9 rounded content-cat">
                 <div>
-                    <div class="header-cat"><h4>Sản phẩm bán chạy</h4></div>
+                    <div class="header-cat"><h4>Cá Koi</h4></div>
                     <div>
                         <?php if (!empty($products)): ?>
                             <div class="row">
@@ -103,7 +103,7 @@ require_once 'helpers/Helper.php';
                     </div>
                 </div>
                 <div>
-                    <div class="header-cat"><h4>Bể cá bán chạy</h4></div>
+                    <div class="header-cat"><h4>Bể cá</h4></div>
                     <div>
                         <?php if (!empty($products)): ?>
                             <div class="row">
@@ -159,7 +159,7 @@ require_once 'helpers/Helper.php';
                     </div>
                 </div>
                 <div>
-                    <div class="header-cat"><h4>Phụ kiện bán chạy</h4></div>
+                    <div class="header-cat"><h4>Phụ kiện</h4></div>
                     <div>
                         <?php if (!empty($products)): ?>
                             <div class="row">

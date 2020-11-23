@@ -1,10 +1,22 @@
 <?php
-echo "<pre>";
+/*echo "<pre>";
 print_r($_POST);
 echo "</pre>";
 
-?>
+*/?>
+
 <div class="signup">
+    <div class="using-border py-3" style="margin-bottom: 20px">
+        <div class="inner_breadcrumb  ml-4">
+            <ul class="short_ls">
+                <li>
+                    <a href="trang-chu.html">Trang chủ</a>
+                    <span>/ /</span>
+                </li>
+                <li><a href="dang-ky.html">Đăng ký</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="signup-container">
         <h1 class="signup-heading">Đăng ký</h1>
         <form method="post" action="" class="signup-form" autocomplete="off">
