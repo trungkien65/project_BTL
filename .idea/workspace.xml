@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cad0995c-8658-47ee-806a-e84f8efd6f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/assets/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/homes/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/users/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/frontend/views/users/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/views/users/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/frontend/controllers/HomeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <workItem from="1606009380941" duration="6809000" />
       <workItem from="1606029591093" duration="10807000" />
       <workItem from="1606041714700" duration="13075000" />
-      <workItem from="1606136161078" duration="7803000" />
+      <workItem from="1606136161078" duration="9289000" />
     </task>
     <servers />
   </component>
@@ -123,10 +120,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="432" y="92" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1605932838998" />
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1606143832139">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1606145689496">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606143832139" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1606145689496" />
     <state x="184" y="14" key="SettingsEditor" timestamp="1605596256041">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -23,4 +23,9 @@ class HomeController extends Controller {
     ]);
     require_once 'views/layouts/main.php';
   }
+
+  public function contact(){
+      $this->content = $this->render('views/homes/contact.php');
+      require_once 'views/layouts/main.php';
+  }
 }
